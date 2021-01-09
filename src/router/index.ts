@@ -1,28 +1,48 @@
-import Vue from "vue";
-import VueRouter, { RouteConfig } from "vue-router";
-import Home from "../views/Home.vue";
+import Vue from 'vue';
+import VueRouter, { RouteConfig } from 'vue-router';
+import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: "/",
-    name: "Home",
-    component: Home
+    path: '/',
+    name: 'Home',
+    component: Home,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: '/races',
+    name: 'Races',
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
-  }
+      import(/* webpackChunkName: "races" */ '../views/Races.vue'),
+  },
+  {
+    path: '/lands',
+    name: 'Lands',
+    component: () =>
+      import(/* webpackChunkName: "lands" */ '../views/Lands.vue'),
+  },
+  {
+    path: '/races',
+    name: 'Races',
+    component: () =>
+      import(/* webpackChunkName: "races" */ '../views/Races.vue'),
+  },
+  {
+    path: '/gods',
+    name: 'Gods',
+    component: () => import(/* webpackChunkName: "gods" */ '../views/Gods.vue'),
+  },
+  {
+    path: '/bestiary',
+    name: 'Bestiary',
+    component: () =>
+      import(/* webpackChunkName: "bestiary" */ '../views/Bestiary.vue'),
+  },
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;
