@@ -23,10 +23,10 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "lands" */ '../views/Lands.vue'),
   },
   {
-    path: '/races',
-    name: 'Races',
+    path: '/appendix',
+    name: 'Appendix',
     component: () =>
-      import(/* webpackChunkName: "races" */ '../views/Races.vue'),
+      import(/* webpackChunkName: "appendix" */ '../views/Appendix.vue'),
   },
   {
     path: '/gods',

@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { ArticleData } from '@/types.ts';
+import { ArticleData } from '@/Types.ts';
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
