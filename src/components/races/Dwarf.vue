@@ -9,7 +9,7 @@
           dwarves."<br />- Orym Rithgut, Jut trapper
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/dwarf.png" max-width="400" />
+      <v-img src="@/assets/dwarf.webp" max-width="400" />
       <v-card-title>
         Overview
       </v-card-title>

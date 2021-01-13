@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">HOME</router-link> |
+      <router-link to="/home">HOME</router-link> |
       <router-link to="/races">RACES</router-link> |
       <router-link to="/lands">LANDS</router-link> |
       <router-link to="/gods">GODS</router-link> |
@@ -36,7 +36,7 @@ html {
     color: #ffffff;
     text-decoration: none;
 
-    &.router-link-exact-active {
+    &.router-link-active {
       color: #db4500;
     }
   }

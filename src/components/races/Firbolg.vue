@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>HALFLING</h1>
+    <h1>FIRBOLG</h1>
     <v-card>
       <v-card-text>
         <blockquote>

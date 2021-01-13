@@ -6,7 +6,7 @@
       :key="race.value"
       text
       dark
-      :class="{ active: race.isActive }"
+      :class="race.value === $route.query.page ? 'active' : ''"
     >
       {{ race.name }}
     </v-btn>
@@ -97,10 +97,17 @@ export default class Races extends Vue {
     this.clearActiveRace();
     this.activeRace = race;
     this.races[race.value].isActive = true;
+
+    this.$router.push({ name: 'Races', query: { page: race.value } });
   }
 
   private mounted() {
-    this.setActiveRace(this.activeRace);
+    if (this.$route.query.page) {
+      const race = this.$route.query.page as Race;
+      this.setActiveRace(this.races[race]);
+    } else {
+      this.setActiveRace(this.activeRace);
+    }
   }
 }
 </script>

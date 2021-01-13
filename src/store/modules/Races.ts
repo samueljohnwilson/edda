@@ -22,7 +22,7 @@ const state: RacesState = {
       name: 'Firbolg',
     },
   },
-  activeRace: { name: 'Human' },
+  activeRace: Race.DWARF,
 };
 
 const getters: GetterTree<RacesState, RootState> = {
