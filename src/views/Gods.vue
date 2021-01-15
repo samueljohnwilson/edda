@@ -15,17 +15,23 @@
 </template>
 
 <script lang="ts">
+import Cerrunos from '@/components/gods/Cerrunos.vue';
+import EthKorel from '@/components/gods/EthKorel.vue';
 import Enoreth from '@/components/gods/Enoreth.vue';
+import Eos from '@/components/gods/Eos.vue';
+import Othar from '@/components/gods/Othar.vue';
+import Malak from '@/components/gods/Malak.vue';
+import Ulat from '@/components/gods/Ulat.vue';
 import { Component, Vue } from 'vue-property-decorator';
 
 enum God {
-  HETHESKEIN = 'hetheskein',
-  BJORDLUND = 'bjordlund',
-  UNTERLUND = 'unterlund',
-  NEYWYLL = 'neywyll',
-  GARRAD = 'garrad',
-  ITHRA = 'ithra',
-  ULWYLL = 'ulwyll',
+  CERRUNOS = 'cerrunos',
+  EOS = 'eos',
+  OTHAR = 'othar',
+  ENORETH = 'enoreth',
+  MALAK = 'malak',
+  ULAT = 'ulat',
+  ETHKOREL = 'ethkorel',
 }
 
 interface GodDetails {
@@ -40,51 +46,51 @@ type GodList = Record<God, GodDetails>;
 @Component
 export default class Gods extends Vue {
   private gods: GodList = {
-    unterlund: {
-      name: 'Unterlund',
-      value: God.UNTERLUND,
+    othar: {
+      name: 'Othar',
+      value: God.OTHAR,
+      component: Othar,
+      isActive: false,
+    },
+    eos: {
+      name: 'Eos',
+      value: God.EOS,
+      component: Eos,
+      isActive: false,
+    },
+    cerrunos: {
+      name: 'Cerrunos',
+      value: God.CERRUNOS,
+      component: Cerrunos,
+      isActive: false,
+    },
+    enoreth: {
+      name: 'Enoreth',
+      value: God.ENORETH,
       component: Enoreth,
       isActive: false,
     },
-    garrad: {
-      name: 'Garrad',
-      value: God.GARRAD,
-      component: Enoreth,
+    ethkorel: {
+      name: 'Eth-Korel',
+      value: God.ETHKOREL,
+      component: EthKorel,
       isActive: false,
     },
-    bjordlund: {
-      name: 'Bjordlund',
-      value: God.BJORDLUND,
-      component: Enoreth,
+    malak: {
+      name: 'Malak',
+      value: God.MALAK,
+      component: Malak,
       isActive: false,
     },
-    ithra: {
-      name: 'Ithra',
-      value: God.ITHRA,
-      component: Enoreth,
-      isActive: false,
-    },
-    hetheskein: {
-      name: 'Hetheskein',
-      value: God.HETHESKEIN,
-      component: Enoreth,
-      isActive: false,
-    },
-    neywyll: {
-      name: 'Neywyll',
-      value: God.NEYWYLL,
-      component: Enoreth,
-      isActive: false,
-    },
-    ulwyll: {
-      name: 'Ulwyll',
-      value: God.ULWYLL,
-      component: Enoreth,
+    ulat: {
+      name: 'Ulat',
+      value: God.ULAT,
+      component: Ulat,
       isActive: false,
     },
   };
 
-  private activeGod: GodDetails = this.gods.unterlund;
+  private activeGod: GodDetails = this.gods.othar;
 
   private clearActiveRace() {
     Object.values(this.gods).forEach(
