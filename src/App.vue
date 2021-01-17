@@ -6,12 +6,12 @@
       <router-link to="/lands">LANDS</router-link> |
       <router-link to="/gods">GODS</router-link> |
       <router-link to="/bestiary">BESTIARY</router-link> |
+      <router-link to="/history">HISTORY</router-link> |
       <router-link to="/appendix">APPENDIX</router-link>
     </div>
     <router-view />
   </div>
 </template>
-
 <style lang="less">
 body,
 html {
@@ -67,6 +67,37 @@ html {
 
   &.active {
     color: #db4500 !important;
+  }
+}
+
+.sidebar {
+  margin: 20px;
+  background-color: #b8c8d8 !important;
+}
+
+.timeline-wrapper {
+  padding: 20px;
+
+  .timeline {
+    text-align: left;
+
+    .v-card__text,
+    .v-card__title {
+      padding: 4px;
+    }
+
+    .heading {
+      font-weight: bold;
+    }
+
+    .timeline-circle {
+      border: unset;
+      background-color: unset;
+
+      svg {
+        font-size: 30px;
+      }
+    }
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>ORC</h1>
+    <h1>KODO</h1>
     <v-card>
       <v-card-text>
         <blockquote>
@@ -10,7 +10,7 @@
           <br />- Calaith Aowen, elven sage
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/orcfamily.webp" max-width="800" />
+      <v-img src="@/assets/kodo.webp" max-width="400" />
       <v-card-title>
         Overview
       </v-card-title>

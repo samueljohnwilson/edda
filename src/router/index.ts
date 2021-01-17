@@ -34,6 +34,12 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "gods" */ '../views/Gods.vue'),
   },
   {
+    path: '/history',
+    name: 'History',
+    component: () =>
+      import(/* webpackChunkName: "history" */ '../views/History.vue'),
+  },
+  {
     path: '/bestiary',
     name: 'Bestiary',
     component: () =>
