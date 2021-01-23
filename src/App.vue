@@ -82,8 +82,13 @@ html {
     text-align: left;
 
     .v-card__text,
-    .v-card__title {
+    .v-card__title,
+    .v-card__subtitle {
       padding: 4px;
+    }
+
+    .v-card__subtitle {
+      margin-top: -10px;
     }
 
     .heading {
