@@ -9,7 +9,7 @@
           <br />- Calaith Aowen, elven sage
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/ulat.webp" max-width="400" />
+      <v-img src="@/assets/gods/ulat.webp" max-width="400" />
       <v-card-title>
         Overview
       </v-card-title>

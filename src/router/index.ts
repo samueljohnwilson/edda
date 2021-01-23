@@ -46,6 +46,11 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "bestiary" */ '../views/Bestiary.vue'),
   },
   {
+    path: '/maps',
+    name: 'Maps',
+    component: () => import(/* webpackChunkName: "maps" */ '../views/Maps.vue'),
+  },
+  {
     path: '*',
     redirect: '/home',
   },

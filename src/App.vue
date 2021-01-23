@@ -7,6 +7,7 @@
       <router-link to="/gods">GODS</router-link> |
       <router-link to="/bestiary">BESTIARY</router-link> |
       <router-link to="/history">HISTORY</router-link> |
+      <router-link to="/maps">MAPS</router-link> |
       <router-link to="/appendix">APPENDIX</router-link>
     </div>
     <router-view />

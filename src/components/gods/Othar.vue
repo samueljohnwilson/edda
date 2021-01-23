@@ -10,7 +10,7 @@
           <br />- Igrad III, King of Bjorden
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/othar.webp" max-width="400" />
+      <v-img src="@/assets/gods/othar.webp" max-width="400" />
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>

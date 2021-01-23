@@ -8,7 +8,7 @@
           <br />- Alyat Turgya, assistant librarian, Atheneum of Amin
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/eos.webp" max-width="400" />
+      <v-img src="@/assets/gods/eos.webp" max-width="400" />
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>
