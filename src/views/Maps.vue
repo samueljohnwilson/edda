@@ -61,15 +61,15 @@ export default class Maps extends Vue {
       value: Map.EDDA,
       config: {
         bounds: [
-          [0, 749],
+          [0, 800],
           [999, 999],
         ],
         minZoom: 2,
         maxZoom: 5,
         zoom: 2,
-        center: [66, 872],
+        center: [66, 910],
         url:
-          'https://www.worldanvil.com/uploads/maps/37f92b105e66dda536a03c6b52c53d8f.jpg',
+          'https://www.worldanvil.com/uploads/images/a0442782518cbbc14bce6af5d3f00b2a.jpg',
       },
       isActive: false,
     },

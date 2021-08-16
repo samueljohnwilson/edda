@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>ORC</h1>
+    <h1>TROLL</h1>
     <v-card>
       <v-card-text>
         <blockquote>
@@ -10,7 +10,7 @@
           <br />- Calaith Aowen, elven sage
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/beasts/orcfamily.webp" max-width="800" />
+      <v-img src="@/assets/beasts/trolls.webp" max-width="800" />
       <v-card-title>
         Overview
       </v-card-title>

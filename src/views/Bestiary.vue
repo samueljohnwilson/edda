@@ -15,13 +15,17 @@
 </template>
 
 <script lang="ts">
+import Jotunn from '@/components/beasts/Jotunn.vue';
 import Kodo from '@/components/beasts/Kodo.vue';
 import Orc from '@/components/beasts/Orc.vue';
+import Troll from '@/components/beasts/Troll.vue';
 import { Component, Vue } from 'vue-property-decorator';
 
 enum Beast {
   ORC = 'orc',
   KODO = 'kodo',
+  TROLL = 'troll',
+  JOTUNN = 'jotunn',
 }
 
 interface BeastDetails {
@@ -40,6 +44,18 @@ export default class Bestiary extends Vue {
       name: 'Orc',
       value: Beast.ORC,
       component: Orc,
+      isActive: false,
+    },
+    troll: {
+      name: 'Troll',
+      value: Beast.TROLL,
+      component: Troll,
+      isActive: false,
+    },
+    jotunn: {
+      name: 'JÖTUNN',
+      value: Beast.JOTUNN,
+      component: Jotunn,
       isActive: false,
     },
     kodo: {

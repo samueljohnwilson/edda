@@ -1,9 +1,8 @@
 <template>
   <v-container>
     <h1>EDDA</h1>
-    <v-divider />
     <v-spacer />
-    <v-card outlined>
+    <v-card outlined max-width="800px">
       <v-img src="@/assets/edda.jpg"></v-img>
       <v-card-text>
         The great kingdoms of the past fell long ago, leaving the world of men
@@ -13,9 +12,14 @@
         darkness grows in Edda once again.
       </v-card-text>
       <v-card-text>
-        For those who would fight the darkness, this site serves as a repository
-        of all that is known.
+        For those who would fight the darkness, herein lies all that is known.
       </v-card-text>
     </v-card>
   </v-container>
 </template>
+
+<style lang="less" scoped>
+.v-card {
+  margin: 0 auto;
+}
+</style>
