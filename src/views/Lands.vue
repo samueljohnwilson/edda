@@ -10,7 +10,7 @@
     >
       {{ land.name }}
     </v-btn>
-    <component v-bind:is="activeLand.component"></component>
+    <BaseArticle :data="activeRace.data" />
   </v-container>
 </template>
 
@@ -22,6 +22,7 @@ import Ithra from '@/components/lands/Ithra.vue';
 import Neywyll from '@/components/lands/Neywyll.vue';
 import Unterlund from '@/components/lands/Unterlund.vue';
 import Ulwyll from '@/components/lands/Ulwyll.vue';
+import BaseArticle from '@/components/BaseArticle.vue';
 import { Component, Vue } from 'vue-property-decorator';
 
 enum Land {
@@ -43,7 +44,11 @@ interface LandDetails {
 
 type LandList = Record<Land, LandDetails>;
 
-@Component
+@Component({
+  components: {
+    BaseArticle,
+  },
+})
 export default class Lands extends Vue {
   private lands: LandList = {
     unterlund: {
