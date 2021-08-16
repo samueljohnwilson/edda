@@ -10,19 +10,20 @@
     >
       {{ race.name }}
     </v-btn>
-    <component v-bind:is="activeRace.component"></component>
+    <BaseArticle :data="activeRace.data" />
   </v-container>
 </template>
 
 <script lang="ts">
-import Dwarf from '@/components/races/Dwarf.vue';
-import Elf from '@/components/races/Elf.vue';
-import Firbolg from '@/components/races/Firbolg.vue';
-import HalfElf from '@/components/races/HalfElf.vue';
-import Halfling from '@/components/races/Halfling.vue';
-import Human from '@/components/races/Human.vue';
-import { ArticleData } from '@/Types.ts';
+import Dwarf from '@/data/races/Dwarf';
+import Elf from '@/data/races/Elf';
+import Firbolg from '@/data/races/Firbolg';
+import HalfElf from '@/data/races/HalfElf';
+import Halfling from '@/data/races/Halfling';
+import Human from '@/data/races/Human';
+import BaseArticle from '@/components/BaseArticle.vue';
 import { Component, Vue } from 'vue-property-decorator';
+import { BaseArticleDataInterface } from '@/Types';
 
 enum Race {
   HUMAN = 'human',
@@ -36,51 +37,53 @@ enum Race {
 interface RaceDetails {
   name: string;
   value: Race;
-  component: Vue.Component;
+  data: BaseArticleDataInterface;
   isActive: boolean;
 }
 
 type RaceList = Record<Race, RaceDetails>;
 
-@Component
+@Component({
+  components: {
+    BaseArticle,
+  },
+})
 export default class Races extends Vue {
-  private articles!: ArticleData[];
-
   private races: RaceList = {
     human: {
       name: 'Human',
       value: Race.HUMAN,
-      component: Human,
+      data: Human,
       isActive: false,
     },
     dwarf: {
       name: 'Dwarf',
       value: Race.DWARF,
-      component: Dwarf,
+      data: Dwarf,
       isActive: false,
     },
     elf: {
       name: 'Elf',
       value: Race.ELF,
-      component: Elf,
+      data: Elf,
       isActive: false,
     },
     halfelf: {
       name: 'Half-Elf',
       value: Race.HALFELF,
-      component: HalfElf,
+      data: HalfElf,
       isActive: false,
     },
     halfling: {
       name: 'Halfling',
       value: Race.HALFLING,
-      component: Halfling,
+      data: Halfling,
       isActive: false,
     },
     firbolg: {
       name: 'Firbolg',
       value: Race.FIRBOLG,
-      component: Firbolg,
+      data: Firbolg,
       isActive: false,
     },
   };
@@ -102,12 +105,11 @@ export default class Races extends Vue {
   }
 
   private mounted() {
-    if (this.$route.query.page) {
-      const race = this.$route.query.page as Race;
-      this.setActiveRace(this.races[race]);
-    } else {
-      this.setActiveRace(this.activeRace);
-    }
+    const race = this.$route.query.page
+      ? this.races[this.$route.query.page as Race]
+      : this.activeRace;
+
+    this.setActiveRace(race);
   }
 }
 </script>
