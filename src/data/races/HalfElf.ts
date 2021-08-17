@@ -8,7 +8,8 @@ const HalfElf: BaseArticleDataInterface = {
     it as a burden; it is one they will bear until our people look upon the First Tree once again.`,
   attribution: 'Ewenyl, 3rd Praetor of the Council',
   image: 'half-elf.jpg',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [

@@ -6,7 +6,8 @@ const Dwarf: BaseArticleDataInterface = {
     'The dwarfs are a tough lot. They live among rocks and ice, where no men make their homes. Yet, it is the rocks that yield, not the dwarfs.',
   attribution: 'Orym Rithgut, Jut trapper',
   image: 'dwarf.webp',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [

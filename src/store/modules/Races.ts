@@ -6,38 +6,38 @@ import Halfling from '@/data/races/Halfling';
 import Human from '@/data/races/Human';
 import { Races } from '@/Enums';
 import { RacesState, RootState } from '@/store/Types';
-import { ListItem } from '@/Types';
+import { BaseArticleInterface } from '@/Types';
 import { ActionTree, GetterTree, Module, MutationTree } from 'vuex';
 
 /**
  * Lore pertaining to the races of Edda.
  */
-const dwarf: ListItem = {
+const dwarf: BaseArticleInterface = {
   name: 'Dwarf',
   value: Races.DWARF,
   data: Dwarf,
 };
-const elf: ListItem = {
+const elf: BaseArticleInterface = {
   name: 'Elf',
   value: Races.ELF,
   data: Elf,
 };
-const firbolg: ListItem = {
+const firbolg: BaseArticleInterface = {
   name: 'Firbolg',
   value: Races.FIRBOLG,
   data: Firbolg,
 };
-const halfElf: ListItem = {
+const halfElf: BaseArticleInterface = {
   name: 'Half-Elf',
   value: Races.HALF_ELF,
   data: HalfElf,
 };
-const halfling: ListItem = {
+const halfling: BaseArticleInterface = {
   name: 'Halfling',
   value: Races.HALFLING,
   data: Halfling,
 };
-const human: ListItem = {
+const human: BaseArticleInterface = {
   name: 'Human',
   value: Races.HUMAN,
   data: Human,
@@ -70,7 +70,7 @@ const getters: GetterTree<RacesState, RootState> = {
  * Actions.
  */
 const actions: ActionTree<RacesState, RootState> = {
-  setActiveRace({ commit }, race: ListItem) {
+  setActiveRace({ commit }, race: BaseArticleInterface) {
     commit('SET_ACTIVE_RACE', race);
   },
 };
@@ -79,7 +79,7 @@ const actions: ActionTree<RacesState, RootState> = {
  * Mutations.
  */
 const mutations: MutationTree<RacesState> = {
-  ['SET_ACTIVE_RACE'](_state: RacesState, race: ListItem) {
+  ['SET_ACTIVE_RACE'](_state: RacesState, race: BaseArticleInterface) {
     _state.activeRace = race;
   },
 };

@@ -8,7 +8,8 @@ const Halfling: BaseArticleDataInterface = {
     `,
   attribution: 'Haven Thorne, trader',
   image: 'halfling.png',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [

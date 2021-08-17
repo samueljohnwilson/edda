@@ -1,10 +1,10 @@
-import { ListItem, List } from '@/Types';
+import { BaseArticleInterface, ArticleList } from '@/Types';
 
 export interface RootState {
   name: string;
 }
 
 export interface RacesState {
-  races: List;
-  activeRace: ListItem;
+  races: ArticleList;
+  activeRace: BaseArticleInterface;
 }

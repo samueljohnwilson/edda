@@ -3,16 +3,14 @@ import { BaseArticleDataInterface } from '@/Types';
 const Human: BaseArticleDataInterface = {
   title: 'HUMAN',
   quote: `
-    For a race that lives less than 100 years on this earth, they
-    certainly make use of their time. History is replete with men that
-    have come from nothing and risen to great heights. Some such men have
-    been virtuous. Yet while the ambition of men is their strength, it is
-    also their weakness. That which drives them to achieve is the same
+    While the ambition of men is their strength, it is also their weakness.
+    That which drives them to achieve is the same
     which compels them to corruption. Few things rival the great heights
     and foul depths of the human spirit.`,
   attribution: 'Calaith Aowen, elven sage',
   image: 'human.jpg',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [

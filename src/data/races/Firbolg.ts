@@ -9,7 +9,8 @@ const Firbolg: BaseArticleDataInterface = {
     may pass, we will always be visitors in their land.`,
   attribution: 'Galen, Elder of House Llowynd',
   image: 'firbolg.webp',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [

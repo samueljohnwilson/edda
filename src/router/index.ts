@@ -58,6 +58,10 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   routes,
+  // Scroll to top of the page with each navigation.
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
 });
 
 export default router;

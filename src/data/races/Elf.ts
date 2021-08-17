@@ -9,7 +9,8 @@ const Elf: BaseArticleDataInterface = {
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
   image: 'elf.webp',
-  cards: [
+  isImageHorizontal: false,
+  entries: [
     {
       title: 'Overview',
       paragraphs: [
