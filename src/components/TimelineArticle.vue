@@ -1,0 +1,83 @@
+<template>
+  <v-container>
+    <h1>{{ data.title }}</h1>
+    <v-card class="timeline-wrapper">
+      <timeline>
+        <timeline-item
+          v-for="(event, index) in events"
+          :key="`${event.title}-${index}`"
+        >
+          <img :src="require('@/assets/icons/' + event.icon)" slot="others" />
+          <v-card-title>{{ event.title }}</v-card-title>
+          <v-card-text>
+            {{ event.text }}
+          </v-card-text>
+        </timeline-item>
+      </timeline>
+      <ReturnToTopButton />
+    </v-card>
+  </v-container>
+</template>
+
+<script lang="ts">
+import 'animate.css';
+import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
+import { TimelineArticleDataInterface } from '@/Types';
+import { Timeline, TimelineItem } from 'vue-cute-timeline';
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component({
+  components: {
+    ReturnToTopButton,
+    Timeline,
+    TimelineItem,
+  },
+})
+export default class TimelineArticle extends Vue {
+  // Props.
+
+  /**
+   * The data used to populate the page.
+   */
+  @Prop()
+  private readonly data!: TimelineArticleDataInterface;
+}
+</script>
+
+<style lang="less" scoped>
+.timeline-wrapper {
+  padding: 20px;
+
+  .timeline {
+    text-align: left;
+
+    .timeline-item img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .v-card__text,
+    .v-card__title,
+    .v-card__subtitle {
+      padding: 4px;
+    }
+
+    .v-card__subtitle {
+      margin-top: -10px;
+    }
+
+    .heading {
+      font-weight: bold;
+    }
+
+    .timeline-circle {
+      border: unset;
+      background-color: unset;
+
+      svg {
+        font-size: 30px;
+      }
+    }
+  }
+}
+</style>

@@ -1,11 +1,6 @@
 <template>
   <v-container class="main">
-    <NavButton
-      :data="races"
-      :page="page"
-      :active="activeRace"
-      :setActiveButton="setActiveRace"
-    />
+    <NavButton :data="races" :active="activeRace" :setActive="setActiveRace" />
     <BaseArticle :data="activeRace.data" />
   </v-container>
 </template>
@@ -13,8 +8,7 @@
 <script lang="ts">
 import BaseArticle from '@/components/BaseArticle.vue';
 import NavButton from '@/components/NavButton.vue';
-import { Pages } from '@/Enums';
-import { ListItem, List } from '@/Types';
+import { BaseArticleInterface, ArticleList } from '@/Types';
 import { Component, Vue } from 'vue-property-decorator';
 import { Action, Getter } from 'vuex-class';
 
@@ -25,26 +19,19 @@ import { Action, Getter } from 'vuex-class';
   },
 })
 export default class Races extends Vue {
-  // Data.
-
-  /**
-   * The page name.
-   */
-  private page = Pages.RACES;
-
   // Getters.
 
   /**
    * The race currently being displayed.
    */
   @Getter('activeRace', { namespace: 'races' })
-  private activeRace!: ListItem;
+  private activeRace!: BaseArticleInterface;
 
   /**
    * The list of all playable races in Edda.
    */
   @Getter('races', { namespace: 'races' })
-  private races!: List;
+  private races!: ArticleList;
 
   // Actions.
 
@@ -53,6 +40,6 @@ export default class Races extends Vue {
    * it to be displayed.
    */
   @Action('setActiveRace', { namespace: 'races' })
-  private setActiveRace!: (race: ListItem) => void;
+  private setActiveRace!: (race: BaseArticleInterface) => void;
 }
 </script>
