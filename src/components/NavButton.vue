@@ -14,8 +14,7 @@
 </template>
 
 <script lang="ts">
-import { Pages } from '@/Enums';
-import { List, ListItem } from '@/Types';
+import { ArticleList, BaseArticleInterface } from '@/Types';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
@@ -27,53 +26,46 @@ export default class BaseArticle extends Vue {
    *
    * On page load, check for a query parameter. If one exists,
    * use it to determine the data to display. Otherwise, display
-   * whichever item is already active..
+   * the item that is already active.
    */
   private mounted() {
-    const listItem =
+    const BaseArticleInterface =
       this.$route.query.page &&
-      this.data[this.$route.query.page as ListItem['name']]
-        ? this.data[this.$route.query.page as ListItem['name']]
+      this.data[this.$route.query.page as BaseArticleInterface['name']]
+        ? this.data[this.$route.query.page as BaseArticleInterface['name']]
         : this.active;
 
-    this.handleNavigation(listItem);
+    this.setActive(BaseArticleInterface);
   }
 
-  // Props
+  // Props.
 
   /**
    * The data used to populate the navigation buttons.
    */
   @Prop()
-  private readonly data!: List;
-
-  /**
-   * The current page.
-   */
-  @Prop()
-  private readonly page!: Pages;
+  private readonly data!: ArticleList;
 
   /**
    * The button that is currently active.
    */
   @Prop()
-  private readonly active!: ListItem;
+  private readonly active!: BaseArticleInterface;
 
   /**
    * The method to call when a nav button is clicked.
    */
   @Prop()
-  private setActiveButton!: (button: ListItem) => void;
+  private setActive!: (button: BaseArticleInterface) => void;
 
   // Methods.
 
   /**
-   * Navigates via the router and updates the page with
-   * data from the store.
+   * Updates the query parameter and sets the active list item.
    */
-  private handleNavigation(listItem: ListItem) {
-    this.$router.push({ name: this.page, query: { page: listItem.value } });
-    this.setActiveButton(listItem);
+  private handleNavigation(BaseArticleInterface: BaseArticleInterface) {
+    this.$router.replace({ query: { page: BaseArticleInterface.value } });
+    this.setActive(BaseArticleInterface);
   }
 }
 </script>

@@ -10,9 +10,26 @@
       <router-link to="/maps">MAPS</router-link> |
       <router-link to="/appendix">APPENDIX</router-link>
     </div>
-    <router-view />
+    <!-- Adds transitions when navigating via router -->
+    <!-- See https://animate.style/ -->
+    <transition
+      mode="out-in"
+      enter-active-class="animate__animated animate__fadeIn"
+      leave-active-class="animate__animated animate__fadeOut"
+    >
+      <router-view />
+    </transition>
   </div>
 </template>
+
+<script lang="ts">
+import 'animate.css';
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component
+export default class App extends Vue {}
+</script>
+
 <style lang="less">
 body,
 html {
@@ -45,20 +62,27 @@ html {
 
 .container.main {
   max-width: 1000px;
+
+  .v-image {
+    margin: 0 auto;
+    border: 1px black solid;
+  }
 }
 
-.v-image {
-  margin: 0 auto;
-  border: 1px black solid;
+.base {
+  padding: 40px;
 }
 
 .v-card__text {
   text-align: left !important;
+  font-size: 1rem !important;
 
-  blockquote {
+  blockquote,
+  .attribution {
     text-align: center !important;
     max-width: 500px;
     margin: 0 auto;
+    font-style: italic;
   }
 
   span {
@@ -80,34 +104,7 @@ html {
   background-color: #b8c8d8 !important;
 }
 
-.timeline-wrapper {
-  padding: 20px;
-
-  .timeline {
-    text-align: left;
-
-    .v-card__text,
-    .v-card__title,
-    .v-card__subtitle {
-      padding: 4px;
-    }
-
-    .v-card__subtitle {
-      margin-top: -10px;
-    }
-
-    .heading {
-      font-weight: bold;
-    }
-
-    .timeline-circle {
-      border: unset;
-      background-color: unset;
-
-      svg {
-        font-size: 30px;
-      }
-    }
-  }
+.animate__animated {
+  --animate-duration: 0.4s;
 }
 </style>
