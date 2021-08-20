@@ -4,18 +4,24 @@
     <v-card class="timeline-wrapper">
       <timeline>
         <timeline-item
-          v-for="(event, index) in events"
+          v-for="(event, index) in data.events"
           :key="`${event.title}-${index}`"
         >
           <img :src="require('@/assets/icons/' + event.icon)" slot="others" />
           <v-card-title>{{ event.title }}</v-card-title>
-          <v-card-text>
-            {{ event.text }}
-          </v-card-text>
+          <v-card-text
+            v-for="(paragraph, pIndex) in event.paragraphs"
+            :key="`${event.title}-${index}-p${pIndex}`"
+            v-html="paragraph"
+          />
         </timeline-item>
       </timeline>
-      <ReturnToTopButton />
     </v-card>
+    <v-col class="footer">
+      <v-row>
+        <ReturnToTopButton />
+      </v-row>
+    </v-col>
   </v-container>
 </template>
 
@@ -79,5 +85,11 @@ export default class TimelineArticle extends Vue {
       }
     }
   }
+}
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
 </style>
