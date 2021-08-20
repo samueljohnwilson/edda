@@ -16,6 +16,7 @@ export interface BaseArticleDataInterface {
   quote: string;
   attribution: string;
   image: string;
+  imageSource: string;
   isImageHorizontal: boolean;
   entries: ArticleEntryInterface[];
 }
@@ -34,9 +35,11 @@ export interface BaseArticleInterface {
  * Interface for a single timeline entry.
  */
 export interface TimelineEntryInterface {
+  id: string;
   title: string;
-  text: string;
+  paragraphs: string[];
   icon: string;
+  date?: string;
 }
 
 /**
