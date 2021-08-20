@@ -7,7 +7,9 @@ const HalfElf: BaseArticleDataInterface = {
     but they failed us when our need was greatest. Those men that carry our blood today know
     it as a burden; it is one they will bear until our people look upon the First Tree once again.`,
   attribution: 'Ewenyl, 3rd Praetor of the Council',
-  image: 'half-elf.jpg',
+  image:
+    'https://cdnb.artstation.com/p/assets/images/images/005/303/387/large/matt-duckett-duckettmatt-03-woodlandranger.jpg',
+  imageSource: 'https://www.artstation.com/artwork/d6DzA',
   isImageHorizontal: false,
   entries: [
     {

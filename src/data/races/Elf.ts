@@ -8,7 +8,9 @@ const Elf: BaseArticleDataInterface = {
     Shall be the first to know the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
-  image: 'elf.webp',
+  image:
+    'https://cdna.artstation.com/p/assets/images/images/008/961/682/large/carlos-amaral-elf-archer.jpg',
+  imageSource: 'https://www.artstation.com/artwork/E5wVn',
   isImageHorizontal: false,
   entries: [
     {

@@ -7,8 +7,10 @@ const Halfling: BaseArticleDataInterface = {
       them too—so long as you've got coins to offer.
     `,
   attribution: 'Haven Thorne, trader',
-  image: 'halfling.png',
+  image:
+    'https://cdna.artstation.com/p/assets/images/images/031/971/650/large/mx-1984-img-0539.jpg',
   isImageHorizontal: false,
+  imageSource: 'https://www.artstation.com/artwork/ELZ4bK',
   entries: [
     {
       title: 'Overview',

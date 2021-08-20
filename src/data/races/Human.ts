@@ -8,7 +8,9 @@ const Human: BaseArticleDataInterface = {
     which compels them to corruption. Few things rival the great heights
     and foul depths of the human spirit.`,
   attribution: 'Calaith Aowen, elven sage',
-  image: 'human.jpg',
+  image:
+    'https://cdna.artstation.com/p/assets/images/images/016/956/610/large/tomas-duchek-redbaron-m.jpg',
+  imageSource: 'https://www.artstation.com/artwork/2xOlKa',
   isImageHorizontal: false,
   entries: [
     {

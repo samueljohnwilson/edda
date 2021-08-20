@@ -5,7 +5,9 @@ const Dwarf: BaseArticleDataInterface = {
   quote:
     'The dwarfs are a tough lot. They live among rocks and ice, where no men make their homes. Yet, it is the rocks that yield, not the dwarfs.',
   attribution: 'Orym Rithgut, Jut trapper',
-  image: 'dwarf.webp',
+  image:
+    'https://cdnb.artstation.com/p/assets/images/images/003/733/579/large/ivan-dedov-2.jpg',
+  imageSource: 'https://www.artstation.com/artwork/E1WGn',
   isImageHorizontal: false,
   entries: [
     {

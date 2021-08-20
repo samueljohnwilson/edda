@@ -105,7 +105,7 @@ html {
 }
 
 .animate__animated {
-  --animate-duration: 0.5s;
+  --animate-duration: 1s;
 
   &.img {
     --animate-duration: 1.5s;

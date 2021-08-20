@@ -6,6 +6,7 @@
 
 <script lang="ts">
 import TimelineArticle from '@/components/TimelineArticle.vue';
+import Edda from '@/data/history/Edda';
 import { TimelineArticleDataInterface } from '@/Types';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import VueScrollTo from 'vue-scrollto';
@@ -34,8 +35,11 @@ export default class History extends Vue {
 
   /**
    * The data used to populate the timeline.
+   *
+   * Currently, we only display a static timeline, but
+   * there may be other hisories to display in the future.
    */
   @Prop()
-  private data!: TimelineArticleDataInterface;
+  private data: TimelineArticleDataInterface = Edda;
 }
 </script>
