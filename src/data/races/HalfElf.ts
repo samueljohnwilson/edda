@@ -17,7 +17,7 @@ const HalfElf: BaseArticleDataInterface = {
       paragraphs: [
         `
           During the latter part of the Second Age, the men of Wydmyn formed close ties to the elves of
-          Neywyll.The human race was still new to the world then and the elves took great
+          Neywyll. The human race was still new to the world then and the elves took great
           pleasure in their companionship. Through their close relations with the elves,
           the men of Wydmyn gained knowledge and wealth far greater than other men could imagine.
           Eventually, some were even welcomed into the ancient elven houses. When the Great War

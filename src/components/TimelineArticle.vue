@@ -17,24 +17,20 @@
         </timeline-item>
       </timeline>
     </v-card>
-    <v-col class="footer">
-      <v-row>
-        <ReturnToTopButton />
-      </v-row>
-    </v-col>
+    <Footer />
   </v-container>
 </template>
 
 <script lang="ts">
 import 'animate.css';
-import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
+import Footer from '@/components/Footer.vue';
 import { TimelineArticleDataInterface } from '@/Types';
 import { Timeline, TimelineItem } from 'vue-cute-timeline';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component({
   components: {
-    ReturnToTopButton,
+    Footer,
     Timeline,
     TimelineItem,
   },
@@ -85,11 +81,5 @@ export default class TimelineArticle extends Vue {
       }
     }
   }
-}
-
-.footer {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
 }
 </style>

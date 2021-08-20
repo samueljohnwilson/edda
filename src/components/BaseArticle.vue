@@ -39,20 +39,20 @@
         >
         </v-card-text>
       </div>
-      <ReturnToTopButton />
+      <Footer />
     </v-card>
   </v-container>
 </template>
 
 <script lang="ts">
 import 'animate.css';
-import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
+import Footer from '@/components/Footer.vue';
 import { BaseArticleDataInterface } from '@/Types';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component({
   components: {
-    ReturnToTopButton,
+    Footer,
   },
 })
 export default class BaseArticle extends Vue {

@@ -4,7 +4,7 @@ const Elf: BaseArticleDataInterface = {
   title: 'ELF',
   quote: `
     Upon the dying of the Sun and Moon,<br />
-    Those trees and flowers which have yet to bloom,<br />
+    Those flowers which have yet to bloom,<br />
     Shall be the first to know the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',

@@ -111,4 +111,8 @@ html {
     --animate-duration: 1.5s;
   }
 }
+
+.leaflet-control-attribution {
+  display: none !important;
+}
 </style>
