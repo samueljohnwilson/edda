@@ -6,17 +6,23 @@
       <!-- See https://animate.style/ -->
       <transition
         mode="out-in"
-        enter-active-class="animate__animated animate__fadeIn"
-        leave-active-class="animate__animated animate__fadeOut"
+        enter-active-class="animate__animated animate__fadeIn img"
+        leave-active-class="animate__animated animate__fadeOut img"
       >
         <v-img
-          :src="require('@/assets/' + data.image)"
+          :src="data.image"
           :key="data.image"
-          :style="{}"
-          :width="[data.isImageHorizontal ? 800 : 400]"
-          :height="[data.isImageHorizontal ? 400 : 600]"
+          :lazy-src="require('@/assets/black-background.jpg')"
+          :width="data.isImageHorizontal ? 800 : 400"
+          :height="data.isImageHorizontal ? 400 : 600"
         />
       </transition>
+      <a
+        style="color: grey; font-size: 0.8rem"
+        class="img-source"
+        :href="data.imageSource"
+        >Image Source</a
+      >
       <v-card-text>
         <blockquote v-html="data.quote" />
         <v-card-text class="attribution">- {{ data.attribution }}</v-card-text>
