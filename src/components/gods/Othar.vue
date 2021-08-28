@@ -10,7 +10,11 @@
           <br />- Igrad III, King of Bjorden
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/gods/othar.webp" max-width="400" />
+      <v-img
+        src="https://cdnb.artstation.com/p/assets/images/images/006/521/801/large/adam-wesierski-odin-final-flat.jpg?1499237985"
+        max-width="400"
+      />
+      https://www.artstation.com/artwork/23z4Y
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>

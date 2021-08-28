@@ -10,7 +10,11 @@
           <br />- Sir Lunder, magistrate of the Even Hand
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/gods/cerrunos.webp" max-width="400" />
+      <v-img
+        src="https://cdna.artstation.com/p/assets/images/images/000/876/484/large/othon-nikolaidis-ascension.jpg?1435092829"
+        max-width="400"
+      />
+      https://www.artstation.com/artwork/lDqye
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>

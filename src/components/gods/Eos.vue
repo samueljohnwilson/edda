@@ -9,7 +9,10 @@
           <br />- Alyat Turgya, librarian, Atheneum of Amin
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/gods/eos.webp" max-width="400" />
+      <v-img
+        src="https://cdna.artstation.com/p/assets/images/images/040/844/258/4k/pete-amachree-yavanna.jpg"
+        max-width="400"
+      />
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>

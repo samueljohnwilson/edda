@@ -8,3 +8,8 @@ export interface RacesState {
   races: ArticleList;
   activeRace: BaseArticleInterface;
 }
+
+export interface LandsState {
+  lands: ArticleList;
+  activeLand: BaseArticleInterface;
+}

@@ -9,6 +9,9 @@
         >
           <img :src="require('@/assets/icons/' + event.icon)" slot="others" />
           <v-card-title>{{ event.title }}</v-card-title>
+          <v-card-subtitle v-if="event.date">
+            {{ event.date }}
+          </v-card-subtitle>
           <v-card-text
             v-for="(paragraph, pIndex) in event.paragraphs"
             :key="`${event.title}-${index}-p${pIndex}`"

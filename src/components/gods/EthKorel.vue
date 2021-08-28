@@ -12,7 +12,11 @@
           <br />- Untish poem
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/gods/eth-korel.webp" max-width="400" />
+      <v-img
+        src="https://cdna.artstation.com/p/assets/images/images/000/286/178/large/The_spider.jpg?1443928184"
+        max-width="400"
+      />
+      https://www.artstation.com/artwork/VdED4
       <v-row>
         <v-col cols="12" sm="6" md="8">
           <v-card-title>

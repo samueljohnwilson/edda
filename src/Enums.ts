@@ -7,6 +7,16 @@ export enum Races {
   FIRBOLG = 'firbolg',
 }
 
+export enum Lands {
+  HETHESKEIN = 'hetheskein',
+  BJORDLUND = 'bjordlund',
+  UNTERLUND = 'unterlund',
+  NEYWYLL = 'neywyll',
+  GARRAD = 'garrad',
+  ITHRA = 'ithra',
+  ULWYLL = 'ulwyll',
+}
+
 export enum Pages {
   RACES = 'Races',
 }

@@ -74,12 +74,12 @@ html {
 }
 
 .v-card__text {
-  text-align: left !important;
+  text-align: left;
   font-size: 1rem !important;
 
   blockquote,
   .attribution {
-    text-align: center !important;
+    text-align: center;
     max-width: 500px;
     margin: 0 auto;
     font-style: italic;

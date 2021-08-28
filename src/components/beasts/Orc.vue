@@ -10,7 +10,11 @@
           <br />- Calaith Aowen, elven sage
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/beasts/orcfamily.webp" max-width="800" />
+      <v-img
+        src="https://cdna.artstation.com/p/assets/images/images/019/995/472/large/taran-fiddler-asset.jpg?1565901876"
+        max-width="800"
+      />
+      https://www.artstation.com/artwork/N5zGgN
       <v-card-title>
         Overview
       </v-card-title>

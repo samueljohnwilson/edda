@@ -27,15 +27,12 @@
         <blockquote v-html="data.quote" />
         <v-card-text class="attribution">- {{ data.attribution }}</v-card-text>
       </v-card-text>
-      <div
-        v-for="(entry, index) in data.entries"
-        :key="`${entry.title}-${index}`"
-      >
+      <div v-for="entry in data.entries" :key="`${entry.title}`">
         <v-card-title>{{ entry.title }}</v-card-title>
         <v-card-text
-          v-for="(paragraph, pIndex) in entry.paragraphs"
+          v-for="(paragraph, index) in entry.paragraphs"
           v-html="paragraph"
-          :key="`${entry.tile}-${index}-p${pIndex}`"
+          :key="`${entry.title}-${index}`"
         >
         </v-card-text>
       </div>
