@@ -100,6 +100,57 @@ const Edda: TimelineArticleDataInterface = {
         'The Urdor enjoyed the adulation of the mortal races, and for a time, the balance held in Edda.',
       ],
     },
+    {
+      id: 'andor-invasion',
+      title: 'The Andor Invasion',
+      date: '9025 Second Age',
+      icon: 'sword-brandish.png',
+      paragraphs: ['The men of Andor invade'],
+    },
+    {
+      id: 'black-rock',
+      title: 'The Blackrock',
+      date: '11,903 Second Age',
+      icon: 'meteor-impact.png',
+      paragraphs: ['Meteor strike'],
+    },
+    {
+      id: 'black-rock',
+      title: 'The Great War Begins',
+      date: '12,176 Second Age',
+      icon: 'crossed-swords.png',
+      paragraphs: [
+        `Eventually, war became inevitable. The dwarves remained loyal to
+        Othar and took up arms alongside the elves of Neywyll, while most
+        jötnar swore loyalty to the Malor. The orcs emerged from the depths
+        of the mountains to serve their dark masters in battle. Men were
+        divided in their loyalties; nations and families alike were torn
+        apart. The Great War would be fought by the pawns of the Eyar and
+        Malor for two centuries. During this time, many of the empires of
+        men would be wiped from existence and the land itself was razed.`,
+      ],
+    },
+    {
+      id: 'plague-of-akura',
+      title: 'The Plague of Akura',
+      date: '12,179 Second Age',
+      icon: 'death-juice.png',
+      paragraphs: ['They dead'],
+    },
+    {
+      id: 'great-betrayal',
+      title: 'The Great Betrayal',
+      date: '12,350 Second Age',
+      icon: 'backstab.png',
+      paragraphs: ['They dead'],
+    },
+    {
+      id: 'rally-the-troops',
+      title: 'Peace and the Godsdeath',
+      date: '12,357 Second Age',
+      icon: 'rally-the-troops.png',
+      paragraphs: ['They dead'],
+    },
   ],
 };
 
