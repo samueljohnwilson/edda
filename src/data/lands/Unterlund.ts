@@ -2,100 +2,96 @@ import { BaseArticleDataInterface } from '@/Types';
 
 const Unterlund: BaseArticleDataInterface = {
   title: 'UNTERLUND',
-  quote:
-    'The dwarfs are a tough lot. They live among rocks and ice, where no men make their homes. Yet, it is the rocks that yield, not the dwarfs.',
-  attribution: 'Orym Rithgut, Jut trapper',
+  quote: `They say Hidroth was the first city of men. Whether that's true or
+    not, I can't say, but there's no question it is ancient beyond
+    reckoning. The city you see today stands on the bones of long-dead
+    men. It is safe to say, new stones will be laid on our bones someday
+    too.`,
+  attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
-    'https://cdna.artstation.com/p/assets/images/images/001/206/348/4k/david-edwards-kenden-001.jpg?1442195813',
+    'https://cdna.artstation.com/p/assets/images/images/001/206/348/4k/david-edwards-kenden-001.jpg',
   imageSource: 'https://www.artstation.com/artwork/3E2K2',
   isImageHorizontal: true,
   entries: [
     {
       title: 'Overview',
       paragraphs: [
-        `
-          The dwarves inhabit Hethskein, the northernmost reach of Edda. There are
-          two groups of dwarves: those of the <strong>mountain</strong> and those
-          of the <strong>tundra</strong>.
-        `,
-        `
-          The <strong>mountain dwarves</strong> live within Hethe, the great
-          volcano that towers above all other peaks in Edda. The dwarves have
-          tunnelled deep into its depths and the winding, labyrinthine shafts are
-          home to many dwarven communities. Near the mountain's top stands the
-          fortress, Hethedun, which is the seat of the dwarfish king and the site
-          of a great forge, powered by the very magma that flows from the earth
-          below.
-        `,
-        `
-          The <strong>tundra dwarves</strong> live scattered across Hetheskein.
-          Their ancestors left the mountain long ago, following a religious schism
-          that divided the dwarves of Hethe. They believe that the teachings of
-          Othar entreat his followers to choose freedom above all else, so they
-          live in loose-knit tribes with little distinct hierarchy. Though they do
-          roam the tundra, hunting and foraging, they have not forsaken the
-          underground entirely: they often use glacial caverns as their residence,
-          sometimes occupying the same site for months or years before moving on.
-          Though the dwarves maintain respectful relations, the mountain dwarves
-          tend to look upon the tundra dwarves as coarse and barbaric, and the
-          tundra dwarves see their mountain-dwelling kin as rigid and prudish.
-        `,
+        `Unterlund is an expansive nation that covers the central region of Edda.
+        Unterlund is prosperous by the standards of the era and Hidroth is
+        unquestionably the most cosmopolitan city west of Ithra. Many of the
+        trade routes from across the continent end in the markets of Hidroth.
+        Though most of Edda is wild land, in relative terms, the region of
+        Unterlund surrounding Hidroth is densely populated.`,
+      ],
+    },
+    {
+      title: 'Capital',
+      paragraphs: [
+        `Situated at the mouth of the Ragus River, <strong>Hidroth</strong> is
+        the capital city of Unterlund. It is an ancient city that has been
+        continuously occupied for as long as men have kept written records.
+        Immediately preceding the Great War, the kingdoms of men were unified
+        and Hidroth served as the de facto capital for all humanity.`,
+      ],
+    },
+    {
+      title: 'Law Enforcement',
+      paragraphs: [
+        `Around Hidroth, the Red Legion serve both law enforcement and
+        paramilitary roles as the king's personal guard. Outside of the capital,
+        law is largely the responsibility of town guards and councils.`,
+      ],
+    },
+    {
+      title: 'History',
+      paragraphs: [
+        `Unterlund was ruled by Ostran clans for much of the Second Age. It was a
+        smaller nation than it is now, with Jutlund to the north and Andor to
+        the southwest. The Ostrans engaged in internecine warfare for centuries,
+        the stories of their countless battles now lost to history. But while
+        the north battled, the Andorans emerged as a unified power. Though Andor
+        was a much smaller nation than Unterlund, their disciplined and
+        well-trained fighting force rapidly swept through Unterlund during the
+        9th century TA, eventually laying claim to the Untish throne and
+        unifying the two nations. Many of the current lords of Unterlund trace
+        their roots back to the first days of that conquest. Though the
+        distinctions are less pronounced that they once were, today, the Andoran
+        ruling class remain somewhat distinct in culture and appearance from
+        their Ostran subjects.`,
       ],
     },
     {
       title: 'Culture',
       paragraphs: [
-        `
-          The <strong>mountain dwarves</strong> prize education, the development
-          of practical skills, and the dignity of physical labour. Their studious
-          and hard-working culture tends to produce knowledgable and skilled
-          citizens.
-        `,
-        `
-          The <strong>tundra dwarves</strong> value experiences above possessions,
-          revelling in the dramatic northern sunsets or in watching the caribou
-          herds stampede across the landscape. They are attuned to the pulse of
-          their land and to the natural world at large.
-        `,
+        `The people that inhabit Unterlund today are descendants of the Ostrans
+        and Andorans alike. The Andoran nobility tend to be pious, studious, and
+        law-abiding, placing great importance on duty to the community. The
+        Ostrans are northmen at heart, and as such, are known for their
+        commitment to family, their fiery tempers, and their love of drink and
+        song. Today, most Untish are farmers, but they have traditions of
+        hunting and foraging that date back millennia.`,
+        `Halflings have always been a welcome part of Unterlund's culture and are
+        considered nearly equal participants in society, with the exception that
+        they cannot hold noble title.`,
       ],
     },
     {
       title: 'Religion',
       paragraphs: [
-        'All dwarves worship Othar, though in their own ways.',
-        `
-          The <strong>mountain dwarves</strong> consider productivity, diligence,
-          and patience to be the core values of a good life. Their church is known
-          as the House of Othar, but in conversations among dwarves, they simply
-          refer to it as the House. The head of the order is known as the Raester
-          <span class="translate">(Dwarvish: Forgemaster)</span>. Traditionally a
-          male, he is chosen for the role based on his adherence to the religion's
-          values, his standing in the community, and his skill as a smith. Though
-          any dwarf can become the Raester, it has long been common for high
-          families to enroll their second-born sons in the priesthood to become
-          candidates; the Raester takes no wife, but the the position is second
-          only to the king in its political power. Worship is centred around the
-          Great Forge of Hethedun, which is powered by the magma that flows out
-          from the volcano below. When not studying scripture, the priests of the
-          order spend much of their time working at the forge.
-        `,
-        `
-          In the middle of the Second Age, a dwarf named Inga Ethwred ascended to
-          the role of Raester and upended the religious establishment with his
-          proclamations regarding the will of Othar; this eventually lead to a
-          religious schism known as the Sunder. Following the split, Ethwred led
-          his followers into the tundra, where they established a less-restrictive
-          way of worshipping Othar. The <strong>tundra dwarves</strong> call
-          themselves the Wethwen
-          <span class="translate">(Dwarvish: True Sons)</span> and their worship
-          centres on the freedom that Othar gave his creations. They believe that
-          they honour him by casting aside comfort and living a life without
-          restraint. As a result of the Sunder, a common curse among the mountain
-          dwarves is 'wen wey Inga'
-          <span class="translate">(Dwarvish: son of Inga)</span>, which is roughly
-          equivalent to 'son of a bitch' or 'bastard'.
-        `,
+        `Almost all Untish people worship Cerrunos and the state only sanctions
+        religious activities and holidays in his name. There are some remote
+        regions where aspects of Ostran culture has held out and Othar is
+        worshipped, but they are on the farther fringes of the empire. Hidroth
+        is the center of religious life in Unterlund, as it is home to the
+        primary religious sects, including the state religion, the Church of the
+        Middle Path. Many of Unterlunds religious orders are evangelical and it
+        is not uncommon to find missionaries preaching the glory of Cerrunos in
+        far-flung reaches of Edda.`,
       ],
+    },
+    {
+      title: 'Primary Landscape',
+      paragraphs: ['Woodlands, farmland, plains'],
     },
   ],
 };
