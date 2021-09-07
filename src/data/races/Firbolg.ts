@@ -11,7 +11,19 @@ const Firbolg: BaseArticleDataInterface = {
   image:
     'https://cdna.artstation.com/p/assets/images/images/003/143/164/large/tomas-duchek-druid-m.jpg',
   imageSource: 'https://www.artstation.com/artwork/KynJr',
+  imageTitle: 'Firbolg',
   isImageHorizontal: false,
+  sidebar: [
+    {
+      image:
+        'https://cdnb.artstation.com/p/assets/images/images/028/690/383/4k/eva-karpati-the-last-druid.jpg',
+      imageSource: 'https://www.artstation.com/artwork/28q2OA',
+      description: 'Ancient Firbolg',
+    },
+    {
+      paragraph: 'The firbolg begin to decay as they age, sprouting mushrooms.',
+    },
+  ],
   entries: [
     {
       title: 'Overview',

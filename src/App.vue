@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/home">HOME</router-link> |
       <router-link to="/races">RACES</router-link> |
-      <router-link to="/bestiary">BESTIARY</router-link> |
+      <router-link to="/beasts">BEASTS</router-link> |
       <router-link to="/lands">LANDS</router-link> |
       <router-link to="/gods">GODS</router-link> |
       <router-link to="/history">HISTORY</router-link> |

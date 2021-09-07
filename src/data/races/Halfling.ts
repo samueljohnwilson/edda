@@ -8,9 +8,24 @@ const Halfling: BaseArticleDataInterface = {
     `,
   attribution: 'Haven Thorne, trader',
   image:
-    'https://cdna.artstation.com/p/assets/images/images/031/971/650/large/mx-1984-img-0539.jpg',
+    'https://cdna.artstation.com/p/assets/images/images/007/228/612/large/tomas-duchek-lastadventuref02.jpg',
   isImageHorizontal: false,
+  imageTitle: 'Fieldfolk',
   imageSource: 'https://www.artstation.com/artwork/ELZ4bK',
+  sidebar: [
+    {
+      image:
+        'https://cdna.artstation.com/p/assets/images/images/005/144/186/large/lukasz-jaskolski-gnome-gemseeker-kopia.jpg',
+      imageSource: 'https://www.artstation.com/artwork/KdemW',
+      description: 'Cityfolk',
+    },
+    {
+      paragraph: `Few in number, and even more elusive than those numbers would suggest, the Vaedan are the
+        last of an ancient lineage. While the elves of Neywyll chose to make their home as far from Ulwyll
+        as they could travel, the elves of Ithra chose to look out upon the Sea of Tears, to remember their
+        ancient homeland and seek their return.`,
+    },
+  ],
   entries: [
     {
       title: 'Overview',

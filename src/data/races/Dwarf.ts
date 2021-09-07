@@ -6,9 +6,31 @@ const Dwarf: BaseArticleDataInterface = {
     'The dwarfs are a tough lot. They live among rocks and ice, where no men make their homes. Yet, it is the rocks that yield, not the dwarfs.',
   attribution: 'Orym Rithgut, Jut trapper',
   image:
-    'https://cdnb.artstation.com/p/assets/images/images/003/733/579/large/ivan-dedov-2.jpg',
-  imageSource: 'https://www.artstation.com/artwork/E1WGn',
+    'https://cdna.artstation.com/p/assets/images/images/003/661/790/large/liu-pengcheng-8.jpg',
+  imageSource: 'https://www.artstation.com/artwork/Zxo8Z',
+  imageTitle: 'Hethven (Mountain Dwarf)',
   isImageHorizontal: false,
+  sidebar: [
+    {
+      image:
+        'https://cdna.artstation.com/p/assets/images/images/035/233/260/large/alex-pointer-dwarf-comp-color.jpg',
+      imageSource: 'https://www.artstation.com/artwork/3dZQEY',
+      description: 'Ingarven (Tundra Dwarf)',
+    },
+    {
+      paragraph: `Few in number, and even more elusive than those numbers would suggest, the Vaedan are the
+        last of an ancient lineage. While the elves of Neywyll chose to make their home as far from Ulwyll
+        as they could travel, the elves of Ithra chose to look out upon the Sea of Tears, to remember their
+        ancient homeland and seek their return.`,
+    },
+    {
+      paragraph: `Their kingdom, Validein, was greatest in the early days of the Second Age. They were then
+      considered first among the elves in wisdom and wealth. But their wealth and power bred greed
+      and lust among the people, and the kingdom began to crumble from within. But even as their power waned,
+      they continued upon their path for centuries, until the blight of the Long Dusk claimed the last of
+      their worldly wealth.`,
+    },
+  ],
   entries: [
     {
       title: 'Overview',

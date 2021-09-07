@@ -9,9 +9,31 @@ const Elf: BaseArticleDataInterface = {
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
   image:
-    'https://cdna.artstation.com/p/assets/images/images/008/961/682/large/carlos-amaral-elf-archer.jpg',
-  imageSource: 'https://www.artstation.com/artwork/E5wVn',
+    'https://cdnb.artstation.com/p/assets/images/images/008/945/603/large/carlos-amaral-elf-lord.jpg',
+  imageSource: 'https://www.artstation.com/artwork/wor8X',
+  imageTitle: 'Neydan (Elf of Neywyll)',
   isImageHorizontal: false,
+  sidebar: [
+    {
+      image:
+        'https://cdnb.artstation.com/p/assets/images/images/002/207/161/large/aleksander-spisak-desert-elf.jpg',
+      imageSource: 'https://www.artstation.com/artwork/RzNPe',
+      description: 'Vaedan (Elf of Ithra)',
+    },
+    {
+      paragraph: `Few in number, and even more elusive than those numbers would suggest, the Vaedan are the
+        last of an ancient lineage. While the elves of Neywyll chose to make their home as far from Ulwyll
+        as they could travel, the elves of Ithra chose to look out upon the Sea of Tears, to remember their
+        ancient homeland and seek their return.`,
+    },
+    {
+      paragraph: `Their kingdom, Validein, was greatest in the early days of the Second Age. They were then
+      considered first among the elves in wisdom and wealth. But their wealth and power bred greed
+      and lust among the people, and the kingdom began to crumble from within. But even as their power waned,
+      they continued upon their path for centuries, until the blight of the Long Dusk claimed the last of
+      their worldly wealth.`,
+    },
+  ],
   entries: [
     {
       title: 'Overview',

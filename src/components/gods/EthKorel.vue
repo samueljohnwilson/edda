@@ -51,7 +51,7 @@
               Gorel (Dwarvish)<br />
               Efgrel (Orcish)<br />
               The Duskfall<br />
-              The Bloodless Wife<br />
+              The Bloodless<br />
               The Spider Queen
             </v-card-text>
             <v-card-title>

@@ -39,7 +39,11 @@
           </v-card-text>
         </v-col>
         <v-col cols="6" md="4">
-          <v-card class="sidebar">
+          <v-card class="sidebar" style="padding: 10px">
+            <v-img
+              src="https://cdnb.artstation.com/p/assets/images/images/002/207/161/large/aleksander-spisak-desert-elf.jpg"
+              max-width="400"
+            />
             <v-card-title>
               Known As
             </v-card-title>

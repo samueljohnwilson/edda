@@ -40,10 +40,10 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "history" */ '../views/History.vue'),
   },
   {
-    path: '/bestiary',
+    path: '/beasts',
     name: 'Bestiary',
     component: () =>
-      import(/* webpackChunkName: "bestiary" */ '../views/Bestiary.vue'),
+      import(/* webpackChunkName: "beasts" */ '../views/Bestiary.vue'),
   },
   {
     path: '/maps',
