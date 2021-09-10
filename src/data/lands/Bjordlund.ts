@@ -2,15 +2,14 @@ import { BaseArticleDataInterface } from '@/Types';
 
 const Bjordlund: BaseArticleDataInterface = {
   title: 'BJORDLUND',
-  quote: `They say Hidroth was the first city of men. Whether that's true or
-    not, I can't say, but there's no question it is ancient beyond
-    reckoning. The city you see today stands on the bones of long-dead
-    men. It is safe to say, new stones will be laid on our bones someday
-    too.`,
-  attribution: 'Argyle Bild, acolyte of the Middle Path',
+  quote: `A coward may think he will live forever, if he keeps away from the
+  fray. But old age won’t grant him peace. He fades into the grey waste of death,
+  while those that die by the blade live on in the flames of the firelight.`,
+  attribution: 'Fynn Olgar, Bjord skaald',
   image:
     'https://cdnb.artstation.com/p/assets/images/images/016/545/887/large/dmitry-kremiansky-snowyforest-afternoon-kremiansky.jpg',
   imageSource: 'https://www.artstation.com/artwork/v1ZVKY',
+  imageTitle: 'Pine forest',
   isImageHorizontal: true,
   entries: [
     {

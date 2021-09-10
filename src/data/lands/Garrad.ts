@@ -2,96 +2,105 @@ import { BaseArticleDataInterface } from '@/Types';
 
 const Garrad: BaseArticleDataInterface = {
   title: 'GARRAD',
-  quote: `They say Hidroth was the first city of men. Whether that's true or
-    not, I can't say, but there's no question it is ancient beyond
-    reckoning. The city you see today stands on the bones of long-dead
-    men. It is safe to say, new stones will be laid on our bones someday
-    too.`,
-  attribution: 'Argyle Bild, acolyte of the Middle Path',
+  quote: `Watch your tongue, boy. You may chase down a stallion that has
+  escaped the herd, but not a word that has escaped your lips.`,
+  attribution: 'Batu Sarnai, Dal warchief',
   image:
     'https://cdna.artstation.com/p/assets/images/images/018/866/954/4k/alen-vejzovic-1.jpg',
   imageSource: 'https://www.artstation.com/artwork/zA9N1Z',
+  imageTitle: 'The Plains of Garrad',
   isImageHorizontal: true,
   entries: [
     {
       title: 'Overview',
       paragraphs: [
-        `Unterlund is an expansive nation that covers the central region of Edda.
-        Unterlund is prosperous by the standards of the era and Hidroth is
-        unquestionably the most cosmopolitan city west of Ithra. Many of the
-        trade routes from across the continent end in the markets of Hidroth.
-        Though most of Edda is wild land, in relative terms, the region of
-        Unterlund surrounding Hidroth is densely populated.`,
+        `<strong>Government:</strong> Hereditary monarchy<br />
+        <strong>Population:</strong> 1.6 million<br />
+        <strong>Ethnicities:</strong> Dal, Yenta, Jada`,
+        `Garrad is a vast expanse of rolling grassy plains, scrubland, and
+        desert. The Dal people are by far the largest ethnic group. They are
+        primarily nomads, traveling across the plains, hunting the great herds
+        that thunder across the landscape. Dal men and women alike are trained
+        on horses from the moment they take their first steps. Today, they
+        dominate nearly all of Garrad, though in the far east, near the border
+        with Ithra, the Yenta and Jada peoples have carved out a quiet life of
+        pious contemplation.`,
       ],
     },
     {
       title: 'Capital',
       paragraphs: [
-        `Situated at the mouth of the Ragus River, <strong>Hidroth</strong> is
-        the capital city of Unterlund. It is an ancient city that has been
-        continuously occupied for as long as men have kept written records.
-        Immediately preceding the Great War, the kingdoms of men were unified
-        and Hidroth served as the de facto capital for all humanity.`,
+        `One of the only cities in this land of nomads. The Walled City of
+        <strong>Kudah</strong>
+        was built centuries ago by Ur Kud, a warchief that became the first king
+        to unify Garrad under a single banner. Garradi were once fond of the
+        phrase, “Weak men build walls”; Kudah’s fortifications proved an
+        exception, as Ur Kud ruled until the age of 81, something unheard of
+        among warchiefs at the time. He was believed to have fathered hundreds
+        of children with his many wives and concubines, making Kud one of the
+        most common surnames in the country to this day. Some Garradi from
+        outside the capital still use the aforementioned phrase derisively to
+        speak of the inhabitants of the city, believing them to have grown soft.
+        However, by the standards of most of the nations of Edda, Kudah is a
+        brutal and violent city. Slavery is commonplace and gladiatorial battles
+        are the primary source of entertainment.`,
       ],
     },
     {
-      title: 'Law Enforcement',
+      title: 'Government and Law Enforcement',
       paragraphs: [
-        `Around Hidroth, the Red Legion serve both law enforcement and
-        paramilitary roles as the king's personal guard. Outside of the capital,
-        law is largely the responsibility of town guards and councils.`,
+        `Garradi typically settle matters by the logic of might makes right, and
+        duels are common. However, theft and sleeping with a man's wife are both
+        likely to be dealt with by mob justice. In Kudah, the king's clan serves
+        as de facto law enforcement, though their primary purpose is to maintain
+        power and enforce order, not to uphold any particular laws.`,
       ],
     },
     {
       title: 'History',
       paragraphs: [
-        `Unterlund was ruled by Ostran clans for much of the Second Age. It was a
-        smaller nation than it is now, with Jutlund to the north and Andor to
-        the southwest. The Ostrans engaged in internecine warfare for centuries,
-        the stories of their countless battles now lost to history. But while
-        the north battled, the Andorans emerged as a unified power. Though Andor
-        was a much smaller nation than Unterlund, their disciplined and
-        well-trained fighting force rapidly swept through Unterlund during the
-        9th century TA, eventually laying claim to the Untish throne and
-        unifying the two nations. Many of the current lords of Unterlund trace
-        their roots back to the first days of that conquest. Though the
-        distinctions are less pronounced that they once were, today, the Andoran
-        ruling class remain somewhat distinct in culture and appearance from
-        their Ostran subjects.`,
+        `The people of Garrad are wild today, and were wilder in the past. Though
+        they are as likely to kill one another as they are to kill a foreigner,
+        they have never been occupied by an outside force. The Dal have
+        dominated this part of the world for as long as anyone can remember,
+        though the Yenta and Jada have been gradually pushed ever further east
+        over the course of many centuries.`,
       ],
     },
     {
       title: 'Culture',
       paragraphs: [
-        `The people that inhabit Unterlund today are descendants of the Ostrans
-        and Andorans alike. The Andoran nobility tend to be pious, studious, and
-        law-abiding, placing great importance on duty to the community. The
-        Ostrans are northmen at heart, and as such, are known for their
-        commitment to family, their fiery tempers, and their love of drink and
-        song. Today, most Untish are farmers, but they have traditions of
-        hunting and foraging that date back millennia.`,
-        `Halflings have always been a welcome part of Unterlund's culture and are
-        considered nearly equal participants in society, with the exception that
-        they cannot hold noble title.`,
+        `The Dal dominate Garradi culture so much as for them to be one and the
+        same, and Dal culture is entirely centered on horses. The Dal not only
+        ride horses, but eat their flesh, and drink their milk. In fact, the
+        favoured drink of Garradi is an alcoholic beverage made of fermented
+        horse milk and a small amount of horse blood. The Dal have never farmed,
+        instead sustaining themselves entirely on hunting and horse products.`,
+        `The nation of Garrad is essentially a loose confederation of family
+        clans. Most Garradi outside of Kudah care far more about their familial
+        and ethnic affiliations than they do about the the political entity that
+        is the nation.`,
+        `The cultures of the Yenta and Jada people are in stark contrast to the
+        Dal: they are quiet, pious, eat no meat, and are devoted pacifists. They
+        once resided in the desert of the East, but were gradually pushed out by
+        the Dal. They now reside in the Copper Mountains, and they are famed for
+        the ornate hanging gardens they have carved into the mountainsides.`,
       ],
     },
     {
       title: 'Religion',
       paragraphs: [
-        `Almost all Untish people worship Cerrunos and the state only sanctions
-        religious activities and holidays in his name. There are some remote
-        regions where aspects of Ostran culture has held out and Othar is
-        worshipped, but they are on the farther fringes of the empire. Hidroth
-        is the center of religious life in Unterlund, as it is home to the
-        primary religious sects, including the state religion, the Church of the
-        Middle Path. Many of Unterlunds religious orders are evangelical and it
-        is not uncommon to find missionaries preaching the glory of Cerrunos in
-        far-flung reaches of Edda.`,
+        `The Dal are not particularly religious, but will make prayers to Othar
+        on special occasions such as weddings and funerals. They are much more
+        likely to talk about luck or superstition than divine law.`,
+        `The Yenta and Jada are intensely pious peoples, though they do not
+        worship any of the Urdor directly. Instead, they spend their time
+        seeking spiritual truth through philosophical discussion.`,
       ],
     },
     {
       title: 'Primary Landscape',
-      paragraphs: ['Woodlands, farmland, plains'],
+      paragraphs: ['Plains, scrubland, desert'],
     },
   ],
 };

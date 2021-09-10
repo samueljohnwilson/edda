@@ -11,7 +11,23 @@ const Neywyll: BaseArticleDataInterface = {
   image:
     'https://cdna.artstation.com/p/assets/images/images/000/143/534/large/jeremy-chong-forest1.jpg',
   imageSource: 'https://www.artstation.com/artwork/Ndzb',
+  imageTitle: 'An ancient vale',
   isImageHorizontal: true,
+  sidebar: [
+    {
+      image:
+        'https://cdna.artstation.com/p/assets/images/images/036/311/750/large/emilio-r-camarena-emkun-elve2.jpg',
+      imageSource: 'https://www.artstation.com/artwork/g2vr2Q',
+      description: 'Iduilen (The Returned)',
+    },
+    {
+      paragraph: `In the deepest reaches of Neywyll, the forests themselves
+      are ancient graves. While elves do not die of old age, they do gradually
+      lose interest in the affairs of the world, instead taking to long wanderings
+      deep in the woods. Eventually, they seek out the resting place of their
+      ancestors and take their places among the trees.`,
+    },
+  ],
   entries: [
     {
       title: 'Overview',
