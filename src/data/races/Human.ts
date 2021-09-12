@@ -12,7 +12,7 @@ const Human: BaseArticleDataInterface = {
     'https://cdna.artstation.com/p/assets/images/images/016/956/610/large/tomas-duchek-redbaron-m.jpg',
   imageSource: 'https://www.artstation.com/artwork/2xOlKa',
   isImageHorizontal: false,
-  entries: [
+  content: [
     {
       title: 'Overview',
       paragraphs: [

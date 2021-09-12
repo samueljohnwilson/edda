@@ -26,7 +26,7 @@ const Halfling: BaseArticleDataInterface = {
         ancient homeland and seek their return.`,
     },
   ],
-  entries: [
+  content: [
     {
       title: 'Overview',
       paragraphs: [

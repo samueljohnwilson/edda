@@ -33,7 +33,7 @@ const HalfElf: BaseArticleDataInterface = {
       their worldly wealth.`,
     },
   ],
-  entries: [
+  content: [
     {
       title: 'Overview',
       paragraphs: [

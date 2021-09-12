@@ -1,9 +1,9 @@
-import Dwarf from '@/data/races/Dwarf';
-import Elf from '@/data/races/Elf';
-import Firbolg from '@/data/races/Firbolg';
-import HalfElf from '@/data/races/HalfElf';
-import Halfling from '@/data/races/Halfling';
-import Human from '@/data/races/Human';
+import Dwarf from '@/data/races/dwarf/Dwarf';
+import Elf from '@/data/races/elf/Elf';
+import Firbolg from '@/data/races/firbolg/Firbolg';
+import HalfElf from '@/data/races/half-elf/HalfElf';
+import Halfling from '@/data/races/halfling/Halfling';
+import Human from '@/data/races/human/Human';
 import { Races } from '@/Enums';
 import { RacesState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';

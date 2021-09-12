@@ -1,3 +1,5 @@
+import Vue from 'vue';
+
 // Layout types and interfaces.
 
 /**
@@ -35,8 +37,8 @@ export interface BaseArticleDataInterface {
   imageSource: string;
   imageTitle: string;
   isImageHorizontal: boolean;
-  entries: ArticleEntryInterface[];
-  sidebar?: (SidebarEntryInterface | SidebarImageInterface)[];
+  content: Vue.Component;
+  sidebar?: Vue.Component;
 }
 
 /**

@@ -1,10 +1,10 @@
-import Hetheskein from '@/data/lands/Hetheskein';
-import Bjordlund from '@/data/lands/Bjordlund';
-import Unterlund from '@/data/lands/Unterlund';
-import Neywyll from '@/data/lands/Neywyll';
-import Garrad from '@/data/lands/Garrad';
-import Ithra from '@/data/lands/Ithra';
-import Ulwyll from '@/data/lands/Ulwyll';
+import Hetheskein from '@/data/lands/hetheskein/Hetheskein';
+import Bjordlund from '@/data/lands/bjordlund/Bjordlund';
+import Unterlund from '@/data/lands/unterlund/Unterlund';
+import Neywyll from '@/data/lands/neywyll/Neywyll';
+import Garrad from '@/data/lands/garrad/Garrad';
+import Ithra from '@/data/lands/ithra/Ithra';
+import Ulwyll from '@/data/lands/ulwyll/Ulwyll';
 import { Lands } from '@/Enums';
 import { LandsState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';

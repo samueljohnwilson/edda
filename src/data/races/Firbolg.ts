@@ -24,7 +24,7 @@ const Firbolg: BaseArticleDataInterface = {
       paragraph: 'The firbolg begin to decay as they age, sprouting mushrooms.',
     },
   ],
-  entries: [
+  content: [
     {
       title: 'Overview',
       paragraphs: [

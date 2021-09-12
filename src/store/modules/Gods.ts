@@ -1,10 +1,10 @@
-import Cerrunos from '@/data/gods/Cerrunos';
-import Enoreth from '@/data/gods/Enoreth';
-import Eos from '@/data/gods/Eos';
-import EthKorel from '@/data/gods/EthKorel';
-import Malak from '@/data/gods/Malak';
-import Othar from '@/data/gods/Othar';
-import Ulat from '@/data/gods/Ulat';
+import Cerrunos from '@/data/gods/cerrunos/Cerrunos';
+import Enoreth from '@/data/gods/enoreth/Enoreth';
+import Eos from '@/data/gods/eos/Eos';
+import EthKorel from '@/data/gods/eth-korel/EthKorel';
+import Malak from '@/data/gods/malak/Malak';
+import Othar from '@/data/gods/othar/Othar';
+import Ulat from '@/data/gods/ulat/Ulat';
 import { Gods } from '@/Enums';
 import { GodsState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';

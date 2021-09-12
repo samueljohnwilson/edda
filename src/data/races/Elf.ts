@@ -34,7 +34,7 @@ const Elf: BaseArticleDataInterface = {
       their worldly wealth.`,
     },
   ],
-  entries: [
+  content: [
     {
       title: 'Overview',
       paragraphs: [

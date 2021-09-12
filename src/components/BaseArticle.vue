@@ -29,44 +29,14 @@
       </v-card-text>
       <v-row>
         <v-col :cols="!data.sidebar || $vuetify.breakpoint.smAndDown ? 12 : 8">
-          <div v-for="entry in data.entries" :key="entry.title">
-            <v-card-title>{{ entry.title }}</v-card-title>
-            <v-card-text
-              v-for="(paragraph, index) in entry.paragraphs"
-              v-html="paragraph"
-              :key="`${entry.title}-${index}`"
-            >
-            </v-card-text>
-          </div>
+          <component v-bind:is="data.content" />
         </v-col>
         <v-col
           v-if="data.sidebar"
           :cols="$vuetify.breakpoint.smAndDown ? 12 : 4"
         >
           <v-card class="sidebar" style="padding: 10px">
-            <div
-              v-for="(el, sidebarIndex) in data.sidebar"
-              :key="`sidebar-${sidebarIndex}`"
-            >
-              <div v-if="el.image">
-                <v-img :src="el.image" height="400" />
-                <p class="img-source">
-                  {{ el.description }} —
-                  <a
-                    style="color: black"
-                    :href="data.imageSource"
-                    target="_blank"
-                  >
-                    Image Source
-                  </a>
-                </p>
-              </div>
-              <div v-else>
-                <v-card-text>
-                  {{ el.paragraph }}
-                </v-card-text>
-              </div>
-            </div>
+            <component v-bind:is="data.sidebar" />
           </v-card>
         </v-col>
       </v-row>
