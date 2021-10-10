@@ -14,7 +14,7 @@ const Neywyll: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/Ndzb',
   imageTitle: 'An ancient vale',
   isImageHorizontal: true,
-  sidebar: MainComponent,
+  content: MainComponent,
 };
 
 export default Neywyll;

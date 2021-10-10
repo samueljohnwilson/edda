@@ -10,7 +10,6 @@
           <br />- Calaith Aowen, elven sage
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/beasts/trolls.webp" max-width="800" />
       <v-card-title>
         Overview
       </v-card-title>

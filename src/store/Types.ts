@@ -18,3 +18,8 @@ export interface RacesState {
   races: ArticleList;
   activeRace: BaseArticleInterface;
 }
+
+export interface BeastsState {
+  beasts: ArticleList;
+  activeBeast: BaseArticleInterface;
+}

@@ -11,7 +11,6 @@
           <br />- Alyat Turgya, librarian, Atheneum of Amin
         </blockquote>
       </v-card-text>
-      <v-img src="@/assets/beasts/giants.webp" max-width="800" />
       <v-card-title>
         Overview
       </v-card-title>

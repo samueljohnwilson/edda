@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/home">HOME</router-link> |
       <router-link to="/races">RACES</router-link> |
-      <router-link to="/beasts">BEASTS</router-link> |
+      <router-link to="/beasts">BESTIARY</router-link> |
       <router-link to="/lands">LANDS</router-link> |
       <router-link to="/gods">GODS</router-link> |
       <router-link to="/history">HISTORY</router-link> |
@@ -13,9 +13,10 @@
     <!-- Adds transitions when navigating via router -->
     <!-- See https://animate.style/ -->
     <transition
+      appear
       mode="out-in"
-      enter-active-class="animate__animated animate__fadeIn"
-      leave-active-class="animate__animated animate__fadeOut"
+      enter-active-class="animate__animated animate__fadeIn view"
+      leave-active-class="animate__animated animate__fadeOut view"
     >
       <router-view />
     </transition>
@@ -104,12 +105,8 @@ html {
   background-color: #b8c8d8 !important;
 }
 
-.animate__animated {
+.animate__animated.view {
   --animate-duration: 1s;
-
-  &.img {
-    --animate-duration: 1.5s;
-  }
 }
 
 .leaflet-control-attribution {

@@ -3,30 +3,6 @@ import Vue from 'vue';
 // Layout types and interfaces.
 
 /**
- * Interface for a single article entry.
- */
-export interface ArticleEntryInterface {
-  title: string;
-  paragraphs: string[];
-}
-
-/**
- * Interface for a sidebar entry.
- */
-export interface SidebarEntryInterface {
-  paragraph: string;
-}
-
-/**
- * Interface for a sidebar entry.
- */
-export interface SidebarImageInterface {
-  image: string;
-  imageSource: string;
-  description: string;
-}
-
-/**
  * Interface for the data used in a BaseArticle component.
  */
 export interface BaseArticleDataInterface {
