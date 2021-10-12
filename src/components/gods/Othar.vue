@@ -46,16 +46,15 @@
               Othar (Elvish)<br />
               Othar (Dwarvish)<br />
               Otok (Orcish)<br />
-              The Allfather
+              The Oldfather
             </v-card-text>
             <v-card-title>
               Associations
             </v-card-title>
             <v-card-text>
+              Hunting<br />
               Wisdom<br />
               Warfare<br />
-              Hunting<br />
-              Weather<br />
             </v-card-text>
           </v-card>
         </v-col>

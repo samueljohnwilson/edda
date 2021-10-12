@@ -7,7 +7,7 @@
       Othar (Elvish)<br />
       Othar (Dwarvish)<br />
       Otok (Orcish)<br />
-      The Allfather
+      The Oldfather
     </v-card-text>
     <v-card-title>
       Associations

@@ -18,7 +18,7 @@ const Edda: TimelineArticleDataInterface = {
       paragraphs: [
         `To fill the world with life, <strong>Enoreth</strong> separated three parts from
         itself; each parts was then split in two. From the first part were
-        born <strong>Othar, The Allfather</strong>, and <strong>Malak, The Devourer</strong>. From the second
+        born <strong>Othar, The Oldfather</strong>, and <strong>Malak, The Devourer</strong>. From the second
         part came <strong>Cerunnos, The Arbiter</strong>, and <strong>Ulat Banor, The Maelstrom</strong>. From
         the last came <strong>Eos, The Dawnbringer</strong>, and <strong>Eth Korel, The Duskfall</strong>.
         Separately, the benevolent powers are known as the <strong>Eyar</strong>, and the
@@ -82,12 +82,12 @@ const Edda: TimelineArticleDataInterface = {
     },
     {
       id: 'second-age',
-      title: 'The Children of Othar',
+      title: 'The Children of Eos',
       date: '1 Second Age',
       icon: 'ages.png',
       paragraphs: [
         `Upon their arrival in the west, the Urdor wandered the lands of
-        Edda. As Othar traveled the world, he filled it with living things,
+        Edda. As Eos traveled the world, she filled it with living things,
         among them the races of halflings, men, dwarves, and the jötnar.`,
       ],
     },
@@ -97,7 +97,8 @@ const Edda: TimelineArticleDataInterface = {
       date: '32 Second Age',
       icon: 'gift-of-knowledge.png',
       paragraphs: [
-        'The Urdor enjoyed the adulation of the mortal races, and for a time, the balance held in Edda.',
+        `The Urdor enjoyed the adulation of the mortal races, and for a time,
+        the balance held in Edda. Knowledge is shared among the races.`,
       ],
     },
     {
@@ -107,13 +108,13 @@ const Edda: TimelineArticleDataInterface = {
       icon: 'sword-brandish.png',
       paragraphs: ['The men of Andor invade'],
     },
-    {
-      id: 'black-rock',
-      title: 'The Blackrock',
-      date: '11,903 Second Age',
-      icon: 'meteor-impact.png',
-      paragraphs: ['Meteor strike'],
-    },
+    // {
+    //   id: 'black-rock',
+    //   title: 'The Blackrock',
+    //   date: '11,903 Second Age',
+    //   icon: 'meteor-impact.png',
+    //   paragraphs: ['Meteor strike'],
+    // },
     {
       id: 'black-rock',
       title: 'The Great War Begins',
@@ -135,21 +136,21 @@ const Edda: TimelineArticleDataInterface = {
       title: 'The Plague of Akura',
       date: '12,179 Second Age',
       icon: 'death-juice.png',
-      paragraphs: ['They dead'],
+      paragraphs: ['The people of Rajapun are dead'],
     },
     {
       id: 'great-betrayal',
       title: 'The Great Betrayal',
       date: '12,350 Second Age',
       icon: 'backstab.png',
-      paragraphs: ['They dead'],
+      paragraphs: ['The elves are dead.'],
     },
     {
       id: 'rally-the-troops',
       title: 'Peace and the Godsdeath',
       date: '12,357 Second Age',
       icon: 'rally-the-troops.png',
-      paragraphs: ['They dead'],
+      paragraphs: ['Peace comes, but lots of people are dead.'],
     },
   ],
 };

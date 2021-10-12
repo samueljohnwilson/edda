@@ -8,7 +8,7 @@
       forth. He resides in Eya alongside the other two Eyar, Othar and Eos.
     </v-card-text>
     <v-card-text>
-      When Othar began to populate the world with humanoid creations, Cerrunos
+      After Eos began to populate the world with humanoid creations, Cerrunos
       offered them his knowledge, acting as a civilizing force for the denizens
       of Edda. For a time, he walked among the first men, serving as a guide and
       leader. For this reason, he is remembered among humans as The First King.

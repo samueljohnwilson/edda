@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Malak: BaseArticleDataInterface = {
   title: 'MALAK',
@@ -12,7 +11,6 @@ const Malak: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/QzNWPZ',
   imageTitle: 'An avatar of Malak',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

@@ -10,7 +10,7 @@
       in two.
     </v-card-text>
     <v-card-text>
-      From the first part were born Othar, The Allfather, and Malak, The
+      From the first part were born Othar, The Oldfather, and Malak, The
       Devourer. From the second part came Cerunnos, The Arbiter, and Ulat Banor,
       The Maelstrom. From the last came Eos, The Dawnbringer, and Eth Korel, The
       Duskfall. Separately, the benevolent powers are known as the Eyar, and the

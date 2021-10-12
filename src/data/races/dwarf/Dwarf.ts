@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Dwarf: BaseArticleDataInterface = {
   title: 'DWARF',
@@ -12,7 +11,6 @@ const Dwarf: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/Zxo8Z',
   imageTitle: 'Hethven (Mountain Dwarf)',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

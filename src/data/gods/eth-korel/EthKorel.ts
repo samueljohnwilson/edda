@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const EthKorel: BaseArticleDataInterface = {
   title: 'ETH-KOREL',
@@ -12,7 +11,6 @@ const EthKorel: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/VdED4',
   imageTitle: 'An avatar of Eth Korel',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

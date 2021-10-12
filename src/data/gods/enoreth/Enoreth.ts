@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Enoreth: BaseArticleDataInterface = {
   title: 'ENORETH',
@@ -12,7 +11,6 @@ const Enoreth: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/xJAg52',
   imageTitle: 'The Astral Plane',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

@@ -26,11 +26,12 @@
             and Eos.
           </v-card-text>
           <v-card-text>
-            When Othar began to populate the world with humanoid creations,
-            Cerrunos offered them his knowledge, acting as a civilizing force
-            for the denizens of Edda. For a time, he walked among the first men,
-            serving as a guide and leader. For this reason, he is remembered
-            among humans as The First King.
+            Eos populated the world with humanoid creations, then Othar offered
+            them the primal knowledge required to survive, but later it was
+            Cerrunos that offered them deeper knowledge, acting as a civilizing
+            force for the denizens of Edda. For a time, he walked among the
+            first men, serving as a guide and leader. For this reason, he is
+            remembered among humans as The First King.
           </v-card-text>
           <v-card-text>
             Cerrunos is rarely roused to anger, but the justice he metes out can
@@ -60,10 +61,8 @@
             <v-card-text>
               Justice<br />
               Order<br />
-              Tradition<br />
               Agriculture<br />
               Craftsmen<br />
-              Sailors<br />
             </v-card-text>
           </v-card>
         </v-col>
