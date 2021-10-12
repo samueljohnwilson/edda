@@ -16,10 +16,8 @@
     <v-card-text>
       Justice<br />
       Order<br />
-      Tradition<br />
       Agriculture<br />
       Craftsmen<br />
-      Sailors<br />
     </v-card-text>
   </div>
 </template>

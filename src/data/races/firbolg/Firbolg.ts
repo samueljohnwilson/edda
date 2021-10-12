@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Firbolg: BaseArticleDataInterface = {
   title: 'FIRBOLG',
@@ -14,7 +13,6 @@ const Firbolg: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/KynJr',
   imageTitle: 'Firbolg',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

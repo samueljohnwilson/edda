@@ -10,7 +10,7 @@ const EthKorel: BaseArticleDataInterface = {
   image:
     'https://cdna.artstation.com/p/assets/images/images/000/286/178/large/The_spider.jpg',
   imageSource: 'https://www.artstation.com/artwork/VdED4',
-  imageTitle: 'Eth Korel',
+  imageTitle: 'An avatar of Eth Korel',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,

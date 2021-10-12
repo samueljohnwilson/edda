@@ -11,7 +11,7 @@ const HalfElf: BaseArticleDataInterface = {
   image:
     'https://cdnb.artstation.com/p/assets/images/images/005/303/387/large/matt-duckett-duckettmatt-03-woodlandranger.jpg',
   imageSource: 'https://www.artstation.com/artwork/d6DzA',
-  imageTitle: 'Wydmyn',
+  imageTitle: 'Half-elf of Wydmyn',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,

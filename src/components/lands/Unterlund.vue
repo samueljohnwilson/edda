@@ -4,7 +4,7 @@
     <v-card>
       <v-card-text>
         <blockquote>
-          "They say Hidroth was the first city of men. Whether that's true or
+          "They say Hydroth was the first city of men. Whether that's true or
           not, I can't say, but there's no question it is ancient beyond
           reckoning. The city you see today stands on the bones of long-dead
           men. It is safe to say, new stones will be laid on our bones someday
@@ -23,27 +23,27 @@
       </v-card-text>
       <v-card-text>
         Unterlund is an expansive nation that covers the central region of Edda.
-        Unterlund is prosperous by the standards of the era and Hidroth is
+        Unterlund is prosperous by the standards of the era and Hydroth is
         unquestionably the most cosmopolitan city west of Ithra. Many of the
-        trade routes from across the continent end in the markets of Hidroth.
+        trade routes from across the continent end in the markets of Hydroth.
         Though most of Edda is wild land, in relative terms, the region of
-        Unterlund surrounding Hidroth is densely populated.
+        Unterlund surrounding Hydroth is densely populated.
       </v-card-text>
       <v-card-title>
         Capital
       </v-card-title>
       <v-card-text>
-        Situated at the mouth of the Ragus River, <strong>Hidroth</strong> is
+        Situated at the mouth of the Ragus River, <strong>Hydroth</strong> is
         the capital city of Unterlund. It is an ancient city that has been
         continuously occupied for as long as men have kept written records.
         Immediately preceding the Great War, the kingdoms of men were unified
-        and Hidroth served as the de facto capital for all humanity.
+        and Hydroth served as the de facto capital for all humanity.
       </v-card-text>
       <v-card-title>
         Law Enforcement
       </v-card-title>
       <v-card-text>
-        Around Hidroth, the Red Legion serve both law enforcement and
+        Around Hydroth, the Red Legion serve both law enforcement and
         paramilitary roles as the king's personal guard. Outside of the capital,
         law is largely the responsibility of town guards and councils.
       </v-card-text>
@@ -89,7 +89,7 @@
         Almost all Untish people worship Cerrunos and the state only sanctions
         religious activities and holidays in his name. There are some remote
         regions where aspects of Ostran culture has held out and Othar is
-        worshipped, but they are on the farther fringes of the empire. Hidroth
+        worshipped, but they are on the farther fringes of the empire. Hydroth
         is the center of religious life in Unterlund, as it is home to the
         primary religious sects, including the state religion, the Church of the
         Middle Path. Many of Unterlunds religious orders are evangelical and it

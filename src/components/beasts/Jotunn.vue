@@ -36,7 +36,7 @@
         large part due to their limited intellect. However, Fyndor and Vodor are
         at least as intelligent as humans, and have behavioural complexity to
         match. The Vodor are particularly noted as wise and temperant. While the
-        Fyndor do have a great deal of conflict with humans and dwarfs in the
+        Fyndor do have a great deal of conflict with humans and dwarves in the
         north, this is more the result of ancient animosities more than the
         inherent evil of the Fyndor.
       </v-card-text>

@@ -3,12 +3,12 @@
     <div id="nav">
       <router-link to="/home">HOME</router-link> |
       <router-link to="/races">RACES</router-link> |
-      <router-link to="/beasts">BESTIARY</router-link> |
+      <!-- <router-link to="/beasts">BESTIARY</router-link> | -->
       <router-link to="/lands">LANDS</router-link> |
       <router-link to="/gods">GODS</router-link> |
       <router-link to="/history">HISTORY</router-link> |
-      <router-link to="/maps">MAPS</router-link> |
-      <router-link to="/appendix">APPENDIX</router-link>
+      <router-link to="/maps">MAPS</router-link>
+      <!-- <router-link to="/appendix">APPENDIX</router-link> -->
     </div>
     <!-- Adds transitions when navigating via router -->
     <!-- See https://animate.style/ -->

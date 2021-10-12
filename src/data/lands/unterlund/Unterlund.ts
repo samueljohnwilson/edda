@@ -3,7 +3,7 @@ import MainComponent from './MainComponent.vue';
 
 const Unterlund: BaseArticleDataInterface = {
   title: 'UNTERLUND',
-  quote: `They say Hidroth was the first city of men. Whether that's true or
+  quote: `They say Hydroth was the first city of men. Whether that's true or
     not, I can't say, but there's no question it is ancient beyond
     reckoning. The city you see today stands on the bones of long-dead
     men. It is safe to say, new stones will be laid on our bones someday

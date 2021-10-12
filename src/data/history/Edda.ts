@@ -8,7 +8,7 @@ const Edda: TimelineArticleDataInterface = {
       title: 'The Long Past',
       icon: 'time-trap.png',
       paragraphs: [
-        'In the beginning, there was only Enoreth, the Sum of All Things. This was an age before time.',
+        'In the beginning, there was only <strong>Enoreth, the Sum of All Things</strong>. This was an age before time.',
       ],
     },
     {
@@ -16,13 +16,13 @@ const Edda: TimelineArticleDataInterface = {
       title: 'The Urdor',
       icon: 'wind-hole.png',
       paragraphs: [
-        `To fill the world with life, Enoreth separated three parts from
+        `To fill the world with life, <strong>Enoreth</strong> separated three parts from
         itself; each parts was then split in two. From the first part were
-        born Othar, The Allfather, and Malak, The Devourer. From the second
-        part came Cerunnos, The Arbiter, and Ulat Banor, The Maelstrom. From
-        the last came Eos, The Dawnbringer, and Eth Korel, The Duskfall.
-        Separately, the benevolent powers are known as the Eyar, and the
-        malevolent as the Malor. Together, they are the Urdor. The balance
+        born <strong>Othar, The Allfather</strong>, and <strong>Malak, The Devourer</strong>. From the second
+        part came <strong>Cerunnos, The Arbiter</strong>, and <strong>Ulat Banor, The Maelstrom</strong>. From
+        the last came <strong>Eos, The Dawnbringer</strong>, and <strong>Eth Korel, The Duskfall</strong>.
+        Separately, the benevolent powers are known as the <strong>Eyar</strong>, and the
+        malevolent as the <strong>Malor</strong>. Together, they are the <strong>Urdor</strong>. The balance
         of their constructive and destructive forces allowed for the cycles
         of nature and the existence of life.`,
       ],
@@ -33,9 +33,9 @@ const Edda: TimelineArticleDataInterface = {
       date: '1 First Age',
       icon: 'holy-oak.png',
       paragraphs: [
-        `Enoreth itself created the first sentient race, the Illyum, born
-        from the roots of Ael, the First Tree. Living among animals in
-        Ulwyll, the Old Forest, the Illyum remained in balance with the
+        `<strong>Enoreth</strong> itself created the first sentient race, the <strong>Illyum</strong>, born
+        from the roots of <strong>Ael, the First Tree</strong>. Living among animals in
+        <strong>Ulwyll, the Old Forest</strong>, the Illyum remained in balance with the
         natural world for millennia.`,
       ],
     },

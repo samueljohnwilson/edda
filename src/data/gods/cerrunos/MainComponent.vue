@@ -15,8 +15,8 @@
     </v-card-text>
     <v-card-text>
       Cerrunos is rarely roused to anger, but the justice he metes out can be
-      perceived as brutal. His devotees are known for their dispassionate nature
-      and adherence to law.
+      perceived as brutal. His devotees are known for their dispassionate
+      adherence to law.
     </v-card-text>
   </div>
 </template>

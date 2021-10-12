@@ -38,7 +38,7 @@
     </v-card-title>
     <v-card-text>
       Humans are more diverse in their religious beliefs than other races. While
-      the kingdoms of men all currently worship the Eiar, there was a time when
+      the kingdoms of men all currently worship the Eyar, there was a time when
       the hearts and minds of kings were corrupted by the Malor and men flew the
       banners of the dark lords.
     </v-card-text>

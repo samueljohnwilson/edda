@@ -10,10 +10,11 @@
     </v-card-text>
     <v-card-text>
       Ithra was once the most powerful and wealthy nation in Edda, but all that
-      now remains of the former empire is the city-state of Amin. Ithra has two
-      distinct regions: the Qadish desert that stretches east from the border
-      with Garrad across the peninsula, and a strip of tropical rainforest
-      running along the coast known as the Rajapun.
+      now remains of the former empire is the city-state of Amin. The rest of
+      the country is sparsely populated, typically by nomadic tribes. Ithra has
+      two distinct regions: the Qadish desert that stretches east from the
+      border with Garrad, and a tropical rainforest island on its eastern coast
+      known as Rajapun.
     </v-card-text>
     <v-card-title>
       Capital
@@ -59,10 +60,10 @@
       Before the war, the dense jungle of Rajapun was also home to a thriving
       network of city-states. However, they refused the call to face the forces
       of darkness head on, choosing instead to fortify their cities and wait for
-      the Malor to march against them. However, while they awaited the coming
-      darkness, a great sickness swept the land. Known at the Plague of Akura,
-      the illness affected the minds of those it afflicted, causing them to fall
-      into madness before eventually succumbing to death. The plague brought the
+      the Malor to march against them. While they awaited the coming darkness, a
+      great sickness swept the land. Known at the Plague of Akura, the illness
+      affected the minds of those it afflicted, causing them to fall into
+      madness before eventually succumbing to death. The plague brought the
       nation to collapse from within without the dark lords ever waging war upon
       it. The jungle has now reclaimed the ancient cities, and it is believed
       that men no longer dwell in Rajapun. Those adventurous souls that have

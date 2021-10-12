@@ -4,13 +4,13 @@ import SidebarComponent from './SidebarComponent.vue';
 
 const Malak: BaseArticleDataInterface = {
   title: 'MALAK',
-  quote: `The men of the west are brutish. We will educate them, with time. As
-  with the sun, the Dawnbringer rises first in the east.`,
-  attribution: 'Alyat Turgya, librarian, Atheneum of Amin',
+  quote: `It is said the first soul consumed by the Devourer was that of Oleid, Lord Praetor of the Illyum. If this is so,
+    his soul has writhed in suffering for nearly fourteen-thousand years. Fall upon your sword, if ever Malak returns.`,
+  attribution: 'Calaith Aowen, elven sage',
   image:
     'https://cdna.artstation.com/p/assets/images/images/017/982/614/large/antonio-j-manzanedo-consumer-of-souls-mazanedo-2.jpg',
   imageSource: 'https://www.artstation.com/artwork/QzNWPZ',
-  imageTitle: 'Eth Korel',
+  imageTitle: 'An avatar of Malak',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,

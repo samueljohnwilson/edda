@@ -13,8 +13,8 @@
     </v-card-text>
     <v-card-text>
       Unterlund is home to the vast majority of the halfling population, though
-      they do live in the other nations of Balamyn; a few have even ventured so
-      far as southern Ostramyn, but the cold does not suit their tastes, nor
+      they do live in the other southern nation; a few hsave even ventured so
+      far as northern Unterlund, but the cold does not suit their tastes, nor
       their proclivity for going about without shoes.
     </v-card-text>
     <v-card-title>
@@ -47,9 +47,10 @@
     </v-card-title>
     <v-card-text>
       Most halflings worship Cerrunos, though they worship Eos in Amin. They
-      tend not to be overtly religious and there are no prominent halfling
-      religious orders, though particularly pious individuals have been known to
-      join human orders.
+      tend not to be particularly religious (seemingly more interested in the
+      festivals than the scriptures) and there are no prominent halfling
+      religious orders. However, some particularly pious individuals have been
+      known to join human orders.
     </v-card-text>
   </div>
 </template>

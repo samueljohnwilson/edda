@@ -13,7 +13,7 @@
       From the first part were born Othar, The Allfather, and Malak, The
       Devourer. From the second part came Cerunnos, The Arbiter, and Ulat Banor,
       The Maelstrom. From the last came Eos, The Dawnbringer, and Eth Korel, The
-      Duskfall. Separately, the benevolent powers are known as the Eiar, and the
+      Duskfall. Separately, the benevolent powers are known as the Eyar, and the
       malevolent as the Malor. Together, they are the Urdor. The balance of
       their constructive and destructive forces allowed for the cycles of nature
       and the existence of life.

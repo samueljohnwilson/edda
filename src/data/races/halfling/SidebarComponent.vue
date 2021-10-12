@@ -9,19 +9,17 @@
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>
-      Few in number, and even more elusive than those numbers would suggest, the
-      Vaedan are the last of an ancient lineage. While the elves of Neywyll
-      chose to make their home as far from Ulwyll as they could travel, the
-      elves of Ithra chose to look out upon the Sea of Tears, to remember their
-      ancient homeland and seek their return.
+      The cityfolk have lived in human cities for millennia. They have come to
+      embrace human qualities, for better or for worse. Living in an oversized
+      world, they have also learned to value education over strength, and are
+      often found in educated roles, such as librarians, moneylenders, or
+      scholars.
     </v-card-text>
     <v-card-text>
-      Their kingdom, Validein, was greatest in the early days of the Second Age.
-      They were then considered first among the elves in wisdom and wealth. But
-      their wealth and power bred greed and lust among the people, and the
-      kingdom began to crumble from within. But even as their power waned, they
-      continued upon their path for centuries, until the blight of the Long Dusk
-      claimed the last of their worldly wealth.
+      Theis emphasis on education, and their resulting financial success, can
+      sometimes lead to resentment among the human population. As such,
+      halflings are generally careful not to display wealth in an ostentatious
+      manner.
     </v-card-text>
   </div>
 </template>

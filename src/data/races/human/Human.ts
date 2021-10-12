@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Human: BaseArticleDataInterface = {
   title: 'HUMAN',
@@ -14,7 +13,6 @@ const Human: BaseArticleDataInterface = {
   imageSource: 'https://www.artstation.com/artwork/2xOlKa',
   imageTitle: 'Untish soldier',
   isImageHorizontal: false,
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

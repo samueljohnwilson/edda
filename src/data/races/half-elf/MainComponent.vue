@@ -44,10 +44,9 @@
       Religion
     </v-card-title>
     <v-card-text>
-      The half-elves are not particularly religious, though their are some among
-      them who are blessed with the elvish insight into the nature of Enoreth.
-      Others have come to worship the Ishtar as humans do, though few half-elves
-      worship Cerunnos.
+      The half-elves of Wydmyn are blessed with the elvish insight into the
+      nature of Enoreth. Most of those that dwell among humanity have come to
+      worship the Ishtar as humans do.
     </v-card-text>
   </div>
 </template>

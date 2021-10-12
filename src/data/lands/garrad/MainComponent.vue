@@ -76,10 +76,10 @@
     </v-card-text>
     <v-card-text>
       The cultures of the Yenta and Jada people are in stark contrast to the
-      Dal: they are quiet, pious, eat no meat, and are devoted pacifists. They
-      once resided in the desert of the East, but were gradually pushed out by
-      the Dal. They now reside in the Copper Mountains, and they are famed for
-      the ornate hanging gardens they have carved into the mountainsides.
+      Dal: they are quiet, pious, and typically vegetarian. They once resided in
+      the desert of the East, but were gradually pushed out by the Dal. They now
+      reside in the Copper Mountains, and they are famed for the ornate hanging
+      gardens they have carved into the mountainsides.
     </v-card-text>
     <v-card-title>
       Religion

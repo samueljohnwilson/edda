@@ -1,6 +1,5 @@
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 
 const Halfling: BaseArticleDataInterface = {
   title: 'HALFLING',
@@ -12,7 +11,6 @@ const Halfling: BaseArticleDataInterface = {
   isImageHorizontal: false,
   imageTitle: 'Fieldfolk',
   imageSource: 'https://www.artstation.com/artwork/ELZ4bK',
-  sidebar: SidebarComponent,
   content: MainComponent,
 };
 

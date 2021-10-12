@@ -46,20 +46,19 @@
       History
     </v-card-title>
     <v-card-text>
-      Following the diaspora of the Illyum, the uruk made their landing in the
-      land that would become Bjordlund. They sought out shelter in the
-      Blackspine Mountains and then began to venture further north into what
-      would be Hetheskein. At the beginning of the Second Age, when Eos created
-      the other races, she awakened the dwarves in the caverns of Mount Hethe.
-      Before long, the races came into conflict, and a deep hatred would grow
-      between the uruk and the dwarves over the millennia. When the War of All
-      Lands finally came to pass, the uruk and dwarves fought some of the
-      bloodiest battles of the war. Even to this day, across the icy tundra or
-      high in the mountains, it is not unheard of to find remains of the ancient
-      battles, mummified by the frigid climate of the north. At the end of the
-      war, the uruk were driven out of Hetheskein once and for all, as the
-      forces of righteousness prevailed across the land. Since then, the dwarves
-      have held sole claim to all of Hetheskein.
+      Following the diaspora of the Illyum, the uruk made landing in the region
+      that would become Bjordlund. They began to venture further north into what
+      would be Hetheskein. At the dawn of the Second Age, when Eos created the
+      other races, she awakened the dwarves in the caverns around Mount Hethe.
+      Before long, the orcs and dwarves came into conflict, and a deep hatred
+      would grow between the races over the millennia. When the War of All Lands
+      finally came to pass, the uruk and dwarves fought some of the bloodiest
+      battles of the war. Even to this day, across the icy tundra or high in the
+      mountains, it is not unheard of to find remains of the ancient battles,
+      mummified by the frigid climate of the north. At the end of the war, the
+      uruk were driven out of Hetheskein once and for all, as the forces of
+      righteousness prevailed across the land. Since then, the dwarves have held
+      sole claim to the land.
     </v-card-text>
     <v-card-title>
       Culture and Religion

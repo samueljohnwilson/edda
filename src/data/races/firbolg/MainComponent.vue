@@ -29,7 +29,7 @@
       Religion
     </v-card-title>
     <v-card-text>
-      The firbolg worship the Old God, whom they call 'Laeth', which means 'That
+      The firbolg worship Enoreth, whom they call 'Laeth', which means 'That
       Which Is' in sylvan.
     </v-card-text>
   </div>
