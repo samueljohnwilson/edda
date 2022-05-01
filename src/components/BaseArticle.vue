@@ -4,7 +4,6 @@
     <v-card class="base">
       <FadeImage
         :image="data.image"
-        :imageSource="data.imageSource"
         :title="data.imageTitle"
         :lazy-src="require('@/assets/black-background.jpg')"
         :width="data.isImageHorizontal ? 800 : 400"

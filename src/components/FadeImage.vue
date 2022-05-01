@@ -15,23 +15,36 @@
         :lazy-src="require('@/assets/black-background.jpg')"
         :width="width"
         :height="height"
+        @click="showLightbox"
       />
     </transition>
     <p class="img-source" style="color: grey">
-      {{ title }} —
-      <a style="color: grey" :href="imageSource" target="_blank">
-        Image Source
-      </a>
+      {{ title }}
     </p>
+    <VueEasyLightbox
+      moveDisabled
+      :imgs="image"
+      :visible="isLightboxVisible"
+      @hide="hideLightbox"
+    />
   </div>
 </template>
 
 <script lang="ts">
 import 'animate.css';
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import VueEasyLightbox from 'vue-easy-lightbox';
 
-@Component
+@Component({
+  components: {
+    VueEasyLightbox,
+  },
+})
 export default class FadeImage extends Vue {
+  // Data.
+
+  private isLightboxVisible = false;
+
   // Props.
 
   /**
@@ -39,12 +52,6 @@ export default class FadeImage extends Vue {
    */
   @Prop()
   private readonly image!: string;
-
-  /**
-   * The image source.
-   */
-  @Prop()
-  private readonly imageSource!: string;
 
   /**
    * The image height.
@@ -63,6 +70,16 @@ export default class FadeImage extends Vue {
    */
   @Prop()
   private readonly title!: string;
+
+  // Methods.
+
+  private hideLightbox() {
+    this.isLightboxVisible = false;
+  }
+
+  private showLightbox() {
+    this.isLightboxVisible = true;
+  }
 }
 </script>
 
