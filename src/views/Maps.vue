@@ -1,26 +1,30 @@
 <template>
   <v-container class="main">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
     <h1>MAPS</h1>
-    <v-card>
-      <span>{{ center }}</span>
-      <l-map
-        ref="map"
-        style="height: 600px; width: 100%; background-color: black;"
-        :minZoom="activeMap.config.minZoom"
-        :maxZoom="activeMap.config.maxZoom"
-        :zoom="activeMap.config.zoom"
-        :center="activeMap.config.center"
-      >
-        <l-image-overlay
-          :url="activeMap.config.url"
-          :bounds="activeMap.config.bounds"
-        />
-      </l-map>
-    </v-card>
+    <LMap
+      ref="map"
+      style="height: 800px; width: 100%; background-color: black;"
+      :minZoom="activeMap.config.minZoom"
+      :maxZoom="activeMap.config.maxZoom"
+      :maxBounds="activeMap.config.bounds"
+      :zoom="activeMap.config.zoom"
+      :crs="activeMap.config.crs"
+      :center="activeMap.config.center"
+    >
+      <LImageOverlay
+        :url="activeMap.config.url"
+        :bounds="activeMap.config.bounds"
+      />
+    </LMap>
   </v-container>
 </template>
 
 <script lang="ts">
+import { CRS } from 'leaflet';
 import { Component, Vue } from 'vue-property-decorator';
 import { LImageOverlay, LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 
@@ -35,6 +39,7 @@ interface MapConfig {
   zoom: number;
   center: number[];
   url: string;
+  crs: any;
 }
 
 interface MapDetails {
@@ -61,15 +66,16 @@ export default class Maps extends Vue {
       value: Map.EDDA,
       config: {
         bounds: [
-          [0, 800],
-          [999, 999],
+          [0, 2500],
+          [2500, 0],
         ],
-        minZoom: 2,
+        minZoom: -2,
         maxZoom: 5,
-        zoom: 2,
-        center: [66, 910],
+        zoom: -2,
+        center: [1250, 1250],
         url:
           'https://www.worldanvil.com/uploads/images/a0442782518cbbc14bce6af5d3f00b2a.jpg',
+        crs: CRS.Simple,
       },
       isActive: false,
     },

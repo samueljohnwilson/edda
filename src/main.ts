@@ -3,6 +3,7 @@ import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
 import store from './store';
+import VueEasyLightbox from 'vue-easy-lightbox';
 import vuetify from './plugins/vuetify';
 import VueScrollTo from 'vue-scrollto';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -15,6 +16,7 @@ Vue.component('FontAwesomeIcon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 Vue.use(VueScrollTo);
+Vue.use(VueEasyLightbox);
 
 new Vue({
   router,
