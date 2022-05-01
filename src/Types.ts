@@ -14,6 +14,7 @@ export interface BaseArticleDataInterface {
   imageTitle: string;
   isImageHorizontal: boolean;
   content: Vue.Component;
+  className?: string;
   sidebar?: Vue.Component;
 }
 

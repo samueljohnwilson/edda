@@ -9,8 +9,8 @@ const HalfElf: BaseArticleDataInterface = {
     it as a burden; it is one they will bear until our people look upon the First Tree once again.`,
   attribution: 'Ewenyl, 3rd Praetor of the Council',
   image:
-    'https://cdnb.artstation.com/p/assets/images/images/005/303/387/large/matt-duckett-duckettmatt-03-woodlandranger.jpg',
-  imageSource: 'https://www.artstation.com/artwork/d6DzA',
+    'https://cdnb.artstation.com/p/assets/images/images/002/196/683/large/zuoan-dong-finish.jpg?1458565824',
+  imageSource: 'https://www.artstation.com/artwork/3vZv2',
   imageTitle: 'Half-elf of Wydmyn',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
