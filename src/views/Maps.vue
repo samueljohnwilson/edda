@@ -39,7 +39,7 @@ interface MapConfig {
   zoom: number;
   center: number[];
   url: string;
-  crs: any;
+  crs: CRS;
 }
 
 interface MapDetails {

@@ -4,4 +4,3 @@ declare module '*.vue' {
 }
 
 declare module 'vue-cute-timeline';
-declare module 'leaflet';
