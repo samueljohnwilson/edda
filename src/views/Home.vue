@@ -2,7 +2,7 @@
   <v-container>
     <h1>THE CODEX OF EDDA</h1>
     <v-spacer />
-    <v-card align-center outlined>
+    <v-card align-center outlined max-width="1000">
       <v-card-text>
         The great kingdoms of the past fell long ago, leaving the world of men
         in a dark age of ignorance and superstition. The ancient evils were
