@@ -1,25 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/home">HOME</router-link> |
-      <router-link to="/races">RACES</router-link> |
-      <!-- <router-link to="/beasts">BESTIARY</router-link> | -->
-      <router-link to="/lands">LANDS</router-link> |
-      <router-link to="/gods">GODS</router-link> |
-      <router-link to="/history">HISTORY</router-link> |
-      <router-link to="/maps">MAPS</router-link>
-      <!-- <router-link to="/appendix">APPENDIX</router-link> -->
-    </div>
-    <!-- Adds transitions when navigating via router -->
-    <!-- See https://animate.style/ -->
-    <transition
-      appear
-      mode="out-in"
-      enter-active-class="animate__animated animate__fadeIn view"
-      leave-active-class="animate__animated animate__fadeOut view"
-    >
-      <router-view />
-    </transition>
+    <v-app>
+      <v-main>
+        <div id="nav">
+          <router-link to="/home">HOME</router-link> |
+          <router-link to="/races">RACES</router-link> |
+          <!-- <router-link to="/beasts">BESTIARY</router-link> | -->
+          <router-link to="/lands">LANDS</router-link> |
+          <router-link to="/gods">GODS</router-link> |
+          <router-link to="/history">HISTORY</router-link> |
+          <router-link to="/maps">MAPS</router-link>
+          <!-- <router-link to="/appendix">APPENDIX</router-link> -->
+        </div>
+        <!-- Adds transitions when navigating via router -->
+        <!-- See https://animate.style/ -->
+        <transition
+          appear
+          mode="out-in"
+          enter-active-class="animate__animated animate__fadeIn view"
+          leave-active-class="animate__animated animate__fadeOut view"
+        >
+          <router-view />
+        </transition>
+      </v-main>
+    </v-app>
   </div>
 </template>
 

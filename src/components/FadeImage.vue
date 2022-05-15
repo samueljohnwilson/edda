@@ -36,7 +36,7 @@
 
 <script lang="ts">
 import 'animate.css';
-import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import VueEasyLightbox from 'vue-easy-lightbox';
 
 @Component({
