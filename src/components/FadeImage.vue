@@ -10,6 +10,7 @@
     >
       <v-img
         :class="className"
+        class="rounded-xl"
         :src="image"
         :key="image"
         :title="title"
@@ -130,5 +131,9 @@ export default class FadeImage extends Vue {
 
 .vel-toolbar {
   display: none !important;
+}
+
+.sidebar .v-image {
+  margin: 10px auto !important;
 }
 </style>

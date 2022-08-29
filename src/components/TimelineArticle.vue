@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <h1>{{ data.title }}</h1>
-    <v-card class="timeline-wrapper">
+    <v-card class="timeline-wrapper rounded-xl">
       <timeline>
         <timeline-item
           v-for="(event, index) in data.events"

@@ -5,9 +5,9 @@ import SidebarComponent from './SidebarComponent.vue';
 
 const Elf: BaseArticleDataInterface = {
   title: 'ELF',
-  quote: `Upon the dying of the Sun and Moon,<br />
-    Those flowers which have yet to bloom,<br />
-    Shall be the first to know the pain,<br />
+  quote: `Upon the dying of the Sun,<br />
+    Night will fall, never to be undone.<br />
+    The trees will be the first to share the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
   image: config.images.elf,

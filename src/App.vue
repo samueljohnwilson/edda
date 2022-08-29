@@ -82,12 +82,11 @@ html {
   text-align: left;
   font-size: 1rem !important;
 
-  blockquote,
-  .attribution {
+  blockquote {
     text-align: center;
-    max-width: 500px;
     margin: 0 auto;
     font-style: italic;
+    line-height: 28px;
   }
 
   span {
@@ -104,8 +103,8 @@ html {
   }
 }
 
-.sidebar {
-  margin: 20px;
+.sidebar,
+.quote {
   background-color: #b8c8d8 !important;
 }
 

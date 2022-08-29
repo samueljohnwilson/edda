@@ -6,6 +6,7 @@
     />
     <h1>MAPS</h1>
     <LMap
+      class="rounded-xl"
       ref="map"
       style="height: 800px; width: 100%; background-color: black;"
       :minZoom="activeMap.config.minZoom"

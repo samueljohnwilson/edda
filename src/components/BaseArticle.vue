@@ -1,18 +1,24 @@
 <template>
   <v-container>
     <h1>{{ data.title }}</h1>
-    <v-card class="base">
-      <FadeImage
-        :image="data.image"
-        :title="data.imageTitle"
-        :lazy-src="require('@/assets/black-background.jpg')"
-        :width="data.isImageHorizontal ? 600 : 400"
-        :height="data.isImageHorizontal ? 400 : 600"
-      />
-      <v-card-text>
-        <blockquote v-html="data.quote" />
-        <v-card-text class="attribution">{{ data.attribution }}</v-card-text>
-      </v-card-text>
+    <v-card class="base rounded-xl">
+      <v-row align="center" justify="center">
+        <v-col>
+          <FadeImage
+            :image="data.image"
+            :title="data.imageTitle"
+            :lazy-src="require('@/assets/black-background.jpg')"
+            :width="data.isImageHorizontal ? 600 : 400"
+            :height="data.isImageHorizontal ? 400 : 600"
+          />
+        </v-col>
+        <v-col>
+          <v-card-text class="quote rounded-xl">
+            <blockquote v-html="data.quote" />
+          </v-card-text>
+          <p class="img-source" style="color: grey">{{ data.attribution }}</p>
+        </v-col>
+      </v-row>
       <v-row>
         <v-col :cols="!data.sidebar || $vuetify.breakpoint.smAndDown ? 12 : 8">
           <component v-bind:is="data.content" />
@@ -21,7 +27,11 @@
           v-if="data.sidebar"
           :cols="$vuetify.breakpoint.smAndDown ? 12 : 4"
         >
-          <v-card class="sidebar" style="padding: 10px">
+          <v-card
+            class="sidebar rounded-xl"
+            style="padding: 10px"
+            elevation="0"
+          >
             <component v-bind:is="data.sidebar" />
           </v-card>
         </v-col>
