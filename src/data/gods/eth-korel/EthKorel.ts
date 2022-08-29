@@ -8,7 +8,6 @@ const EthKorel: BaseArticleDataInterface = {
   attribution: 'Alyat Turgya, librarian, Atheneum of Amin',
   image:
     'https://cdna.artstation.com/p/assets/images/images/000/286/178/large/The_spider.jpg',
-  imageSource: 'https://www.artstation.com/artwork/VdED4',
   imageTitle: 'An avatar of Eth Korel',
   isImageHorizontal: false,
   content: MainComponent,

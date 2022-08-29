@@ -9,8 +9,7 @@ const Firbolg: BaseArticleDataInterface = {
     may pass, we will always be visitors in their land.`,
   attribution: 'Galen, Elder of House Llowynd',
   image:
-    'https://cdna.artstation.com/p/assets/images/images/003/143/164/large/tomas-duchek-druid-m.jpg',
-  imageSource: 'https://www.artstation.com/artwork/KynJr',
+    'https://assets-of-edda.sfo3.digitaloceanspaces.com/Persons/firbolg.png',
   imageTitle: 'Firbolg',
   isImageHorizontal: false,
   content: MainComponent,

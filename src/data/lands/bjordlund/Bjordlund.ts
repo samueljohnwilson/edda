@@ -9,7 +9,6 @@ const Bjordlund: BaseArticleDataInterface = {
   attribution: 'Fynn Olgar, Bjord skaald',
   image:
     'https://cdnb.artstation.com/p/assets/images/images/016/545/887/large/dmitry-kremiansky-snowyforest-afternoon-kremiansky.jpg',
-  imageSource: 'https://www.artstation.com/artwork/v1ZVKY',
   imageTitle: 'Pine forest',
   isImageHorizontal: true,
   content: MainComponent,

@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/005/144/186/large/lukasz-jaskolski-gnome-gemseeker-kopia.jpg"
-      imageSource="https://www.artstation.com/artwork/KdemW"
       title="Cityfolk"
       width="200"
       height="300"

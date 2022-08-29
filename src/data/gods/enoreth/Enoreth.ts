@@ -8,7 +8,6 @@ const Enoreth: BaseArticleDataInterface = {
   attribution: 'Calaith Aowen, elven sage',
   image:
     'https://cdna.artstation.com/p/assets/images/images/027/695/358/4k/john-edwards-fractal-web-01-a.jpg',
-  imageSource: 'https://www.artstation.com/artwork/xJAg52',
   imageTitle: 'The Astral Plane',
   isImageHorizontal: false,
   content: MainComponent,

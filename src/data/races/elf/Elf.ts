@@ -9,9 +9,7 @@ const Elf: BaseArticleDataInterface = {
     Shall be the first to know the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
-  image:
-    'https://cdnb.artstation.com/p/assets/images/images/008/945/603/large/carlos-amaral-elf-lord.jpg',
-  imageSource: 'https://www.artstation.com/artwork/wor8X',
+  image: 'https://assets-of-edda.sfo3.digitaloceanspaces.com/Persons/elf.png',
   imageTitle: 'Neydan (Elf of Neywyll)',
   isImageHorizontal: false,
   sidebar: SidebarComponent,

@@ -10,7 +10,6 @@ const Cerrunos: BaseArticleDataInterface = {
   attribution: 'Sir Lunder, magistrate of the Even Hand',
   image:
     'https://cdnb.artstation.com/p/assets/images/images/005/947/665/large/anita-chaudhary-myt-red-astradhari-fire-5.jpg',
-  imageSource: 'https://www.artstation.com/artwork/lDqye',
   imageTitle: 'An avatar of Cerrunos',
   isImageHorizontal: false,
   content: MainComponent,

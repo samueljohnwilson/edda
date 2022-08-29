@@ -8,7 +8,6 @@ const Othar: BaseArticleDataInterface = {
   attribution: 'Bjord toast',
   image:
     'https://cdnb.artstation.com/p/assets/images/images/028/674/601/large/caglayan-kaya-goksoy-valhalla-drowning-low.jpg',
-  imageSource: 'https://www.artstation.com/artwork/9mNK3o',
   imageTitle: 'An avatar of Othar',
   isImageHorizontal: false,
   sidebar: SidebarComponent,

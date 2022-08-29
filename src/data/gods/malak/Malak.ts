@@ -8,7 +8,6 @@ const Malak: BaseArticleDataInterface = {
   attribution: 'Calaith Aowen, elven sage',
   image:
     'https://cdna.artstation.com/p/assets/images/images/017/982/614/large/antonio-j-manzanedo-consumer-of-souls-mazanedo-2.jpg',
-  imageSource: 'https://www.artstation.com/artwork/QzNWPZ',
   imageTitle: 'An avatar of Malak',
   isImageHorizontal: false,
   content: MainComponent,

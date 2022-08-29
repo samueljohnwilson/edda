@@ -11,7 +11,6 @@ const Ulwyll: BaseArticleDataInterface = {
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
     'https://cdna.artstation.com/p/assets/images/images/000/923/818/large/ferdinand-ladera-forest-wisp.jpg',
-  imageSource: 'https://www.artstation.com/artwork/9Ed0q',
   imageTitle: 'Estra Fyld (The Luminous Woods)',
   isImageHorizontal: true,
   content: MainComponent,

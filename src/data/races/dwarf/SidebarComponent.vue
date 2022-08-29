@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/035/233/260/large/alex-pointer-dwarf-comp-color.jpg"
-      imageSource="https://www.artstation.com/artwork/3dZQEY"
       title="Ingarven (Tundra Dwarf)"
       width="200"
       height="300"

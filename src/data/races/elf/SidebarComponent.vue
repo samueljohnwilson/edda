@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/002/207/161/large/aleksander-spisak-desert-elf.jpg"
-      imageSource="https://www.artstation.com/artwork/RzNPe"
       title="Vaedan (Elf of Ithra)"
       width="200"
       height="300"

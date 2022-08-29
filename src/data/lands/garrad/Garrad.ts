@@ -8,7 +8,6 @@ const Garrad: BaseArticleDataInterface = {
   attribution: 'Batu Sarnai, Dal warchief',
   image:
     'https://cdna.artstation.com/p/assets/images/images/018/866/954/4k/alen-vejzovic-1.jpg',
-  imageSource: 'https://www.artstation.com/artwork/zA9N1Z',
   imageTitle: 'The Plains of Garrad',
   isImageHorizontal: true,
   content: MainComponent,

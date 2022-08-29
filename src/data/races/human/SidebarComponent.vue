@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/015/739/663/4k/omar-samy-144.jpg"
-      imageSource="https://www.artstation.com/artwork/w8E0vX"
       title="Ithran mercenary"
       width="200"
       height="300"
@@ -17,7 +16,6 @@
     </v-card-text>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/003/183/028/large/kseniia-tselousova-595-mongol-s.jpg"
-      imageSource="https://www.artstation.com/artwork/XOQLw"
       title="Garradi war queen"
       width="200"
       height="300"

@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/028/690/383/4k/eva-karpati-the-last-druid.jpg"
-      imageSource="https://www.artstation.com/artwork/KynJr"
       title="Ancient Firbolg"
       width="200"
       height="300"

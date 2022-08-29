@@ -2,7 +2,6 @@
   <div>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/025/020/872/large/henrique-dld-bardo-2final.jpg"
-      imageSource="https://www.artstation.com/artwork/qAD46y"
       className="halfelf"
       title="Half-elf bard in Hydroth"
       width="200"

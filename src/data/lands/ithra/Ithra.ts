@@ -8,7 +8,6 @@ const Ithra: BaseArticleDataInterface = {
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
     'https://cdna.artstation.com/p/assets/images/images/010/140/570/large/rishiraj-singh-shekhawat-desertruins.jpg',
-  imageSource: 'https://www.artstation.com/artwork/dNdGW',
   imageTitle: 'Ruins of an ancient city',
   isImageHorizontal: true,
   content: MainComponent,

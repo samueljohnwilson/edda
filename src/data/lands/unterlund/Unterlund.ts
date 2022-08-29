@@ -11,7 +11,6 @@ const Unterlund: BaseArticleDataInterface = {
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
     'https://cdna.artstation.com/p/assets/images/images/001/206/348/4k/david-edwards-kenden-001.jpg',
-  imageSource: 'https://www.artstation.com/artwork/3E2K2',
   imageTitle: 'Northern Unterlund',
   isImageHorizontal: true,
   content: MainComponent,

@@ -10,7 +10,6 @@ export interface BaseArticleDataInterface {
   quote: string;
   attribution: string;
   image: string;
-  imageSource: string;
   imageTitle: string;
   isImageHorizontal: boolean;
   content: Vue.Component;
