@@ -1,3 +1,4 @@
+import { config } from '@/config';
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
 
@@ -8,8 +9,7 @@ const Firbolg: BaseArticleDataInterface = {
     we came upon the firbolg. Their roots here were ancient even then. Though the centuries
     may pass, we will always be visitors in their land.`,
   attribution: 'Galen, Elder of House Llowynd',
-  image:
-    'https://assets-of-edda.sfo3.digitaloceanspaces.com/Persons/firbolg.png',
+  image: config.images.firbolg,
   imageTitle: 'Firbolg',
   isImageHorizontal: false,
   content: MainComponent,

@@ -1,3 +1,4 @@
+import { config } from '@/config';
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
 
@@ -8,7 +9,7 @@ const Human: BaseArticleDataInterface = {
     which compels them to corruption. Few things rival the great heights
     and foul depths of the human spirit.`,
   attribution: 'Calaith Aowen, elven sage',
-  image: 'https://assets-of-edda.sfo3.digitaloceanspaces.com/Persons/human.png',
+  image: config.images.human,
   imageTitle: 'Untish soldier',
   isImageHorizontal: false,
   content: MainComponent,

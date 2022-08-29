@@ -1,3 +1,4 @@
+import { config } from '@/config';
 import { BaseArticleDataInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
@@ -9,7 +10,7 @@ const Elf: BaseArticleDataInterface = {
     Shall be the first to know the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
-  image: 'https://assets-of-edda.sfo3.digitaloceanspaces.com/Persons/elf.png',
+  image: config.images.elf,
   imageTitle: 'Neydan (Elf of Neywyll)',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
