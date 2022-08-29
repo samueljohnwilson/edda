@@ -6,7 +6,7 @@
         :image="data.image"
         :title="data.imageTitle"
         :lazy-src="require('@/assets/black-background.jpg')"
-        :width="data.isImageHorizontal ? 800 : 400"
+        :width="data.isImageHorizontal ? 600 : 400"
         :height="data.isImageHorizontal ? 400 : 600"
       />
       <v-card-text>
