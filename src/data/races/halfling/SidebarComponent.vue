@@ -2,9 +2,9 @@
   <div>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/005/144/186/large/lukasz-jaskolski-gnome-gemseeker-kopia.jpg"
-      title="Cityfolk"
-      width="200"
-      height="300"
+      imageTitle="Cityfolk"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>

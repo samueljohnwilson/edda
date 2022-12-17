@@ -9,20 +9,21 @@
       leave-active-class="animate__animated animate__fadeOut img"
     >
       <v-img
-        :class="className"
+        :class="imageClassName"
         class="rounded-xl"
         :src="image"
         :key="image"
-        :title="title"
         :lazy-src="require('@/assets/black-background.jpg')"
+        :width="imageWidth"
+        :height="imageHeight"
         @click="showLightbox"
       />
     </transition>
     <p class="img-source" style="color: grey">
-      {{ title }}
+      {{ imageTitle }}
     </p>
     <VueEasyLightbox
-      teleport="className"
+      teleport="imageClassName"
       zoomDisabled
       moveDisabled
       :scrollDisabled="false"
@@ -46,30 +47,24 @@ import VueEasyLightbox from 'vue-easy-lightbox';
 export default class FadeImage extends Vue {
   // Data.
 
-  /**
-   * Should the lightbox be displayed?
-   */
   private isLightboxVisible = false;
 
   // Props.
 
-  /**
-   * The image.
-   */
   @Prop()
   private readonly image!: string;
 
-  /**
-   * A class to apply to the image.
-   */
   @Prop()
-  private readonly className!: string;
+  private readonly imageClassName!: string;
 
-  /**
-   * The image title.
-   */
   @Prop()
-  private readonly title!: string;
+  private readonly imageHeight!: number;
+
+  @Prop()
+  private readonly imageWidth!: number;
+
+  @Prop()
+  private readonly imageTitle!: string;
 
   // Methods.
 
@@ -79,15 +74,6 @@ export default class FadeImage extends Vue {
 
   private showLightbox() {
     this.isLightboxVisible = true;
-  }
-
-  private mounted(): void {
-    document
-      .querySelector('body')
-      ?.addEventListener('wheel', this.preventScroll, { passive: false });
-    document
-      .querySelector('body')
-      ?.addEventListener('keydown', this.preventKeydown, { passive: false });
   }
 
   private preventKeydown(e: KeyboardEvent) {
@@ -105,6 +91,21 @@ export default class FadeImage extends Vue {
       e.stopPropagation();
     }
   }
+
+  // Lifecycle methods
+
+  /**
+   * Add listeners for scroll and keydown events to prevent the user from
+   * scrolling when the lightbox is open.
+   */
+  private mounted(): void {
+    document
+      .querySelector('body')
+      ?.addEventListener('wheel', this.preventScroll, { passive: false });
+    document
+      .querySelector('body')
+      ?.addEventListener('keydown', this.preventKeydown, { passive: false });
+  }
 }
 </script>
 
@@ -115,9 +116,5 @@ export default class FadeImage extends Vue {
 
 .vel-toolbar {
   display: none !important;
-}
-
-.sidebar .v-image {
-  margin: 10px auto !important;
 }
 </style>

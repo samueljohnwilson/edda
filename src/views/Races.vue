@@ -35,10 +35,6 @@ export default class Races extends Vue {
 
   // Actions.
 
-  /**
-   * Sets the active race in the store, causing
-   * it to be displayed.
-   */
   @Action('setActiveRace', { namespace: 'races' })
   private setActiveRace!: (race: BaseArticleInterface) => void;
 }

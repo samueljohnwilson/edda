@@ -9,7 +9,7 @@ const Hetheskein: BaseArticleDataInterface = {
   image:
     'https://cdn.discordapp.com/attachments/1008048169621393458/1013477982565834772/sam.dub_the_tallest_mountain_in_the_world_high_above_the_clouds_9137963d-639b-46fb-8ed7-0ad6ce1b45ff.png',
   imageTitle: 'Mount Hethe',
-  isImageHorizontal: true,
+
   content: MainComponent,
 };
 

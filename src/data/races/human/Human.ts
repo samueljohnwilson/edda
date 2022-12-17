@@ -11,7 +11,6 @@ const Human: BaseArticleDataInterface = {
   attribution: 'Calaith Aowen, elven sage',
   image: config.images.races.human,
   imageTitle: 'Untish soldier',
-  isImageHorizontal: false,
   content: MainComponent,
 };
 

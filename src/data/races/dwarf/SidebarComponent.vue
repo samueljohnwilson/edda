@@ -2,9 +2,9 @@
   <div>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/035/233/260/large/alex-pointer-dwarf-comp-color.jpg"
-      title="Ingarven (Tundra Dwarf)"
-      width="200"
-      height="300"
+      imageTitle="Ingarven (Tundra Dwarf)"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>

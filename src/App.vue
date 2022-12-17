@@ -52,7 +52,7 @@ html {
 }
 
 #nav {
-  padding: 30px;
+  padding: 2rem;
 
   a {
     font-weight: bold;
@@ -66,7 +66,7 @@ html {
 }
 
 .container.main {
-  max-width: 1000px;
+  max-width: 80rem;
 
   .v-image {
     margin: 0 auto;
@@ -75,7 +75,7 @@ html {
 }
 
 .base {
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .v-card__text {
@@ -86,7 +86,7 @@ html {
     text-align: center;
     margin: 0 auto;
     font-style: italic;
-    line-height: 28px;
+    line-height: 1.5rem;
   }
 
   span {
@@ -95,7 +95,7 @@ html {
 }
 
 .v-btn {
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: bold !important;
 
   &.active {
@@ -103,8 +103,7 @@ html {
   }
 }
 
-.sidebar,
-.quote {
+.sidebar {
   background-color: #b8c8d8 !important;
 }
 

@@ -12,7 +12,6 @@ const Elf: BaseArticleDataInterface = {
   attribution: 'Elvish proverb',
   image: config.images.races.elf,
   imageTitle: 'Neydan (Elf of Neywyll)',
-  isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,
 };

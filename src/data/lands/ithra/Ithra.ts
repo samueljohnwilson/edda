@@ -9,7 +9,7 @@ const Ithra: BaseArticleDataInterface = {
   image:
     'https://cdn.discordapp.com/attachments/1008048169621393458/1015483573953892382/sam.dub_desert_ancient_walled_city_in_the_distance_arab_d835c1dd-5a8e-4b73-89c2-8abf2bb10f34.png',
   imageTitle: 'Ruins of an ancient city',
-  isImageHorizontal: true,
+
   content: MainComponent,
 };
 

@@ -9,7 +9,6 @@ const Othar: BaseArticleDataInterface = {
   image:
     'https://cdnb.artstation.com/p/assets/images/images/028/674/601/large/caglayan-kaya-goksoy-valhalla-drowning-low.jpg',
   imageTitle: 'An avatar of Othar',
-  isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,
 };

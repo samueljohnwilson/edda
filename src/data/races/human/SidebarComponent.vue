@@ -2,9 +2,9 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/015/739/663/4k/omar-samy-144.jpg"
-      title="Ithran mercenary"
-      width="200"
-      height="300"
+      imageTitle="Ithran mercenary"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>
@@ -16,13 +16,13 @@
     </v-card-text>
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/003/183/028/large/kseniia-tselousova-595-mongol-s.jpg"
-      title="Garradi war queen"
-      width="200"
-      height="300"
+      imageTitle="Garradi war queen"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>
-      Their kingdom, Validein, was greatest in the early days of the Second Age.
+      Their kingdom, Vahran, was greatest in the early days of the Second Age.
       They were then considered first among the elves in wisdom and wealth. But
       their wealth and power bred greed and lust among the people, and the
       kingdom began to crumble from within. But even as their power waned, they

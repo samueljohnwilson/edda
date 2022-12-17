@@ -2,9 +2,9 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/028/690/383/4k/eva-karpati-the-last-druid.jpg"
-      title="Ancient Firbolg"
-      width="200"
-      height="300"
+      imageTitle="Ancient Firbolg"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>

@@ -21,7 +21,7 @@ export default class TimelineArticle extends Vue {}
 <style lang="less" scoped>
 .footer {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2rem;
+  left: 2rem;
 }
 </style>

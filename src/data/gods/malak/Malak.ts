@@ -9,7 +9,6 @@ const Malak: BaseArticleDataInterface = {
   image:
     'https://cdna.artstation.com/p/assets/images/images/017/982/614/large/antonio-j-manzanedo-consumer-of-souls-mazanedo-2.jpg',
   imageTitle: 'An avatar of Malak',
-  isImageHorizontal: false,
   content: MainComponent,
 };
 

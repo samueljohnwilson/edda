@@ -2,9 +2,9 @@
   <div>
     <FadeImage
       image="https://cdnb.artstation.com/p/assets/images/images/002/207/161/large/aleksander-spisak-desert-elf.jpg"
-      title="Vaedan (Elf of Ithra)"
-      width="200"
-      height="300"
+      imageTitle="Vaedan (Elf of Ithra)"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>

@@ -10,7 +10,6 @@ const Dwarf: BaseArticleDataInterface = {
   attribution: 'Orym Rithgut, Jut trapper',
   image: config.images.races.dwarf,
   imageTitle: 'Hethven (Mountain Dwarf)',
-  isImageHorizontal: false,
   content: MainComponent,
 };
 

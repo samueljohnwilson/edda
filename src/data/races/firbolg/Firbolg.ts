@@ -12,7 +12,6 @@ const Firbolg: BaseArticleDataInterface = {
   attribution: 'Galen, Elder of House Llowynd',
   image: config.images.races.firbolg,
   imageTitle: 'Firbolg',
-  isImageHorizontal: false,
   content: MainComponent,
 };
 

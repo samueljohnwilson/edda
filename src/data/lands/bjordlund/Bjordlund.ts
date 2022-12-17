@@ -10,7 +10,7 @@ const Bjordlund: BaseArticleDataInterface = {
   image:
     'https://cdn.discordapp.com/attachments/1008048169621393458/1015476589565313044/sam.dub_tundra_boreal_forest_snow_c4970fce-a445-4251-8f25-dd63a656f5aa.png',
   imageTitle: 'Pine forest',
-  isImageHorizontal: true,
+
   content: MainComponent,
 };
 

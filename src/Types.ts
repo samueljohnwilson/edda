@@ -1,63 +1,37 @@
-import Vue from 'vue';
-
-// Layout types and interfaces.
-
-/**
- * Interface for the data used in a BaseArticle component.
- */
 export interface BaseArticleDataInterface {
-  title: string;
-  quote: string;
   attribution: string;
+  className?: string;
+  content: Vue.Component;
   image: string;
   imageTitle: string;
-  isImageHorizontal: boolean;
-  content: Vue.Component;
-  className?: string;
+  title: string;
+  quote: string;
   sidebar?: Vue.Component;
 }
 
-/**
- * Interface for the data and metadata used in
- * a BaseArticle component.
- */
 export interface BaseArticleInterface {
-  name: string;
-  value: string;
   data: BaseArticleDataInterface;
-}
-
-/**
- * Interface for a single timeline entry.
- */
-export interface TimelineEntryInterface {
-  id: string;
-  title: string;
-  paragraphs: string[];
-  icon: string;
-  date?: string;
-}
-
-/**
- * Interface for a page that utilizes
- * the TimelineArticle component.
- */
-export interface TimelineArticleDataInterface {
-  title: string;
-  events: TimelineEntryInterface[];
-}
-
-/**
- * Interface for the data and metadata used in
- * a TimelineArticle component.
- */
-export interface TimelineArticleInterface {
   name: string;
   value: string;
-  data: TimelineArticleDataInterface;
 }
 
-/**
- * Type designating a list of articles.
- */
+export interface TimelineEntryInterface {
+  date?: string;
+  icon: string;
+  id: string;
+  paragraphs: string[];
+  title: string;
+}
+
+export interface TimelineArticleDataInterface {
+  events: TimelineEntryInterface[];
+  title: string;
+}
+
+export interface TimelineArticleInterface {
+  data: TimelineArticleDataInterface;
+  name: string;
+  value: string;
+}
+
 export type ArticleList = Record<string, BaseArticleInterface>;

@@ -51,24 +51,24 @@ export default class TimelineArticle extends Vue {
 
 <style lang="less" scoped>
 .timeline-wrapper {
-  padding: 20px;
+  padding: 2rem;
 
   .timeline {
     text-align: left;
 
     .timeline-item img {
-      width: 30px;
-      height: 30px;
+      width: 2.5rem;
+      height: 2.5rem;
     }
 
     .v-card__text,
     .v-card__title,
     .v-card__subtitle {
-      padding: 4px;
+      padding: 0.25rem;
     }
 
     .v-card__subtitle {
-      margin-top: -10px;
+      margin-top: -0.5rem;
     }
 
     .heading {
@@ -78,10 +78,6 @@ export default class TimelineArticle extends Vue {
     .timeline-circle {
       border: unset;
       background-color: unset;
-
-      svg {
-        font-size: 30px;
-      }
     }
   }
 }

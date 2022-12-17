@@ -11,7 +11,6 @@ const HalfElf: BaseArticleDataInterface = {
   attribution: 'Ewenyl, 3rd Praetor of the Council',
   image: config.images.races.halfElf,
   imageTitle: 'Half-elf of Wydmyn',
-  isImageHorizontal: false,
   sidebar: SidebarComponent,
   content: MainComponent,
 };

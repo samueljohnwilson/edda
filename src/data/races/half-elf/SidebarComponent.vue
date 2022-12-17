@@ -3,9 +3,9 @@
     <FadeImage
       image="https://cdna.artstation.com/p/assets/images/images/025/020/872/large/henrique-dld-bardo-2final.jpg"
       className="halfelf"
-      title="Half-elf bard in Hydroth"
-      width="200"
-      height="300"
+      imageTitle="Half-elf bard in Hydroth"
+      imageWidth="18rem"
+      imageHeight="18rem"
       :lazy-src="require('@/assets/black-background.jpg')"
     />
     <v-card-text>

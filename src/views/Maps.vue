@@ -8,7 +8,7 @@
     <LMap
       class="rounded-xl"
       ref="map"
-      style="height: 800px; width: 100%; background-color: black;"
+      style="height: 50rem; width: 100%; background-color: black;"
       :minZoom="activeMap.config.minZoom"
       :maxZoom="activeMap.config.maxZoom"
       :maxBounds="activeMap.config.bounds"
@@ -21,10 +21,12 @@
         :bounds="activeMap.config.bounds"
       />
     </LMap>
+    <Footer />
   </v-container>
 </template>
 
 <script lang="ts">
+import Footer from '@/components/Footer.vue';
 import { CRS } from 'leaflet';
 import { Component, Vue } from 'vue-property-decorator';
 import { LImageOverlay, LMap, LTileLayer, LMarker } from 'vue2-leaflet';
@@ -54,6 +56,7 @@ type MapList = Record<Map, MapDetails>;
 
 @Component({
   components: {
+    Footer,
     LImageOverlay,
     LMap,
     LTileLayer,
