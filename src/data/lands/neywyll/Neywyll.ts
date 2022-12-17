@@ -10,7 +10,7 @@ const Neywyll: BaseArticleDataInterface = {
     too.`,
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
-    'https://cdna.artstation.com/p/assets/images/images/000/143/534/large/jeremy-chong-forest1.jpg',
+    'https://cdn.discordapp.com/attachments/1008048169621393458/1015104947089588294/sam.dub_forest_covered_mountains_decfcb68-40ac-499c-beca-5034f85a23d8.png',
   imageTitle: 'An ancient vale',
   isImageHorizontal: true,
   content: MainComponent,

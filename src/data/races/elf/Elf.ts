@@ -10,7 +10,7 @@ const Elf: BaseArticleDataInterface = {
     The trees will be the first to share the pain,<br />
     Of the folk that crossed from whence we came.`,
   attribution: 'Elvish proverb',
-  image: config.images.elf,
+  image: config.images.races.elf,
   imageTitle: 'Neydan (Elf of Neywyll)',
   isImageHorizontal: false,
   sidebar: SidebarComponent,

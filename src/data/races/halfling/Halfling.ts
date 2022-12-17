@@ -7,7 +7,7 @@ const Halfling: BaseArticleDataInterface = {
   quote:
     "In the countryside, there are few as trustworthy as the halflings; in the cities, you can trust them too—so long as you've got coins to offer.",
   attribution: 'Haven Thorne, trader',
-  image: config.images.halfling,
+  image: config.images.races.halfling,
   isImageHorizontal: false,
   imageTitle: 'Fieldfolk',
   content: MainComponent,

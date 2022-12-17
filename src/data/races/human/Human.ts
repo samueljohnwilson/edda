@@ -9,7 +9,7 @@ const Human: BaseArticleDataInterface = {
     which compels them to corruption. Few things rival the great heights
     and foul depths of the human spirit.`,
   attribution: 'Calaith Aowen, elven sage',
-  image: config.images.human,
+  image: config.images.races.human,
   imageTitle: 'Untish soldier',
   isImageHorizontal: false,
   content: MainComponent,

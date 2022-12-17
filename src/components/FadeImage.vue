@@ -15,8 +15,6 @@
         :key="image"
         :title="title"
         :lazy-src="require('@/assets/black-background.jpg')"
-        :width="width"
-        :height="height"
         @click="showLightbox"
       />
     </transition>
@@ -68,18 +66,6 @@ export default class FadeImage extends Vue {
   private readonly className!: string;
 
   /**
-   * The image height.
-   */
-  @Prop()
-  private readonly height!: number;
-
-  /**
-   * The image width.
-   */
-  @Prop()
-  private readonly width!: number;
-
-  /**
    * The image title.
    */
   @Prop()
@@ -96,14 +82,12 @@ export default class FadeImage extends Vue {
   }
 
   private mounted(): void {
-    // @ts-expect-error
     document
       .querySelector('body')
-      .addEventListener('wheel', this.preventScroll, { passive: false });
-    // @ts-expect-error
+      ?.addEventListener('wheel', this.preventScroll, { passive: false });
     document
       .querySelector('body')
-      .addEventListener('keydown', this.preventKeydown, { passive: false });
+      ?.addEventListener('keydown', this.preventKeydown, { passive: false });
   }
 
   private preventKeydown(e: KeyboardEvent) {

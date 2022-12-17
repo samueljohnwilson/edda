@@ -10,7 +10,7 @@ const Firbolg: BaseArticleDataInterface = {
     Their roots here were ancient even then. <br />
     Though the centuries may pass, we will always be visitors in their land.`,
   attribution: 'Galen, Elder of House Llowynd',
-  image: config.images.firbolg,
+  image: config.images.races.firbolg,
   imageTitle: 'Firbolg',
   isImageHorizontal: false,
   content: MainComponent,

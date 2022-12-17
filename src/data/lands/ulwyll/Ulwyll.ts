@@ -9,8 +9,7 @@ const Ulwyll: BaseArticleDataInterface = {
     men. It is safe to say, new stones will be laid on our bones someday
     too.`,
   attribution: 'Argyle Bild, acolyte of the Middle Path',
-  image:
-    'https://cdna.artstation.com/p/assets/images/images/000/923/818/large/ferdinand-ladera-forest-wisp.jpg',
+  image: 'https://cdn.discordapp.com/attachments/1008048169621393458/1015485394684493864/sam.dub_magical_forest_rolling_forested_hills_mystical_land_of__678f83f4-8a28-4556-a95c-6fa106e75876.png',
   imageTitle: 'Estra Fyld (The Luminous Woods)',
   isImageHorizontal: true,
   content: MainComponent,

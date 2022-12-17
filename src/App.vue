@@ -108,6 +108,10 @@ html {
   background-color: #b8c8d8 !important;
 }
 
+.img-source {
+  font-size: 0.8rem;
+}
+
 .animate__animated.view {
   --animate-duration: 1s;
 }

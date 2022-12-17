@@ -8,7 +8,7 @@ const Dwarf: BaseArticleDataInterface = {
     They live among rocks and ice, where no men make their homes. <br />
     Yet, it is the rocks that yield, not the dwarves.`,
   attribution: 'Orym Rithgut, Jut trapper',
-  image: config.images.dwarf,
+  image: config.images.races.dwarf,
   imageTitle: 'Hethven (Mountain Dwarf)',
   isImageHorizontal: false,
   content: MainComponent,

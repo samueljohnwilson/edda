@@ -9,7 +9,7 @@ const HalfElf: BaseArticleDataInterface = {
     but they failed us when our need was greatest. Those men that carry our blood today know
     it as a burden; it is one they will bear until our people look upon the First Tree once again.`,
   attribution: 'Ewenyl, 3rd Praetor of the Council',
-  image: config.images.halfElf,
+  image: config.images.races.halfElf,
   imageTitle: 'Half-elf of Wydmyn',
   isImageHorizontal: false,
   sidebar: SidebarComponent,
