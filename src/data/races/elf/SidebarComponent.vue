@@ -1,7 +1,7 @@
 <template>
   <div>
     <FadeImage
-      image="https://cdnb.artstation.com/p/assets/images/images/002/207/161/large/aleksander-spisak-desert-elf.jpg"
+      image="https://cdn.discordapp.com/attachments/1008048169621393458/1054204811404394549/sam.dub_african_elf_warrior_portrait_as_drawn_by_Greg_Rutkowski_67a0f00f-4548-4769-b7b7-4adaf3b9bcda.webp"
       imageTitle="Vaedan (Elf of Ithra)"
       imageWidth="18rem"
       imageHeight="18rem"

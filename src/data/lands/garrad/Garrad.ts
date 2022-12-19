@@ -7,9 +7,8 @@ const Garrad: BaseArticleDataInterface = {
   escaped the herd, but not a word that has escaped your lips.`,
   attribution: 'Batu Sarnai, Dal warchief',
   image:
-    'https://cdn.discordapp.com/attachments/1008048169621393458/1015473798713188412/sam.dub_plains_grassland_sunset_rolling_hills_4d239795-5e04-4a39-abbc-37f00f28f276.png',
+    'https://cdn.discordapp.com/ephemeral-attachments/1008048169621393458/1053816174066012180/grid_0.webp',
   imageTitle: 'The Plains of Garrad',
-
   content: MainComponent,
 };
 

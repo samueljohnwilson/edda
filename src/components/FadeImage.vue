@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="cursor: pointer">
     <!-- Adds transitions to images -->
     <!-- See https://animate.style/ -->
     <transition

@@ -10,9 +10,8 @@ const Unterlund: BaseArticleDataInterface = {
     too.`,
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
-    'https://cdn.discordapp.com/attachments/1008048169621393458/1015474974452105246/sam.dub_small_medieval_town_pastoral_farmland_mountains_in_the__7e39e273-a133-4601-8ca1-6acc4ef303f1.png',
+    'https://cdn.discordapp.com/attachments/1008048169621393458/1053835840356364379/sam.dub_medieval_city_gate_fantasy_art_castle_in_background_8k_bb57f32d-bed7-470c-aa2a-de25f0e532d0.png',
   imageTitle: 'Northern Unterlund',
-
   content: MainComponent,
 };
 

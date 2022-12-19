@@ -10,9 +10,8 @@ const Neywyll: BaseArticleDataInterface = {
     too.`,
   attribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
-    'https://cdn.discordapp.com/attachments/1008048169621393458/1015104947089588294/sam.dub_forest_covered_mountains_decfcb68-40ac-499c-beca-5034f85a23d8.png',
+    'https://cdn.discordapp.com/attachments/1008048169621393458/1053813712311549953/sam.dub_forest_covered_mountains_elvish_homeland_8k_1b032e00-33b0-4dda-8088-f9a6376afa8e.png',
   imageTitle: 'An ancient vale',
-
   content: MainComponent,
 };
 

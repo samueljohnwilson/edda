@@ -1,7 +1,7 @@
 <template>
   <div>
     <FadeImage
-      image="https://cdna.artstation.com/p/assets/images/images/025/020/872/large/henrique-dld-bardo-2final.jpg"
+      image="https://cdn.discordapp.com/attachments/1008048169621393458/1054406990333497375/sam.dub_handsome_bard_fantasy_art_portrait_8k_479f63d3-9ece-4566-90cc-7313069dd512.png"
       className="halfelf"
       imageTitle="Half-elf bard in Hydroth"
       imageWidth="18rem"

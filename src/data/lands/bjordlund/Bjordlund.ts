@@ -8,9 +8,8 @@ const Bjordlund: BaseArticleDataInterface = {
   while those that die by the blade live on in the flames of the firelight.`,
   attribution: 'Fynn Olgar, Bjord skaald',
   image:
-    'https://cdn.discordapp.com/attachments/1008048169621393458/1015476589565313044/sam.dub_tundra_boreal_forest_snow_c4970fce-a445-4251-8f25-dd63a656f5aa.png',
+    'https://cdn.discordapp.com/attachments/1008048169621393458/1053824621738197022/sam.dub_boreal_forest_stars_in_the_night_sky_8k_ad697907-6534-447d-ba39-99ec8b350273.webp',
   imageTitle: 'Pine forest',
-
   content: MainComponent,
 };
 

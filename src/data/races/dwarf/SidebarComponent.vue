@@ -1,7 +1,7 @@
 <template>
   <div>
     <FadeImage
-      image="https://cdna.artstation.com/p/assets/images/images/035/233/260/large/alex-pointer-dwarf-comp-color.jpg"
+      image="https://cdn.discordapp.com/attachments/1008048169621393458/1053897159633813564/sam.dub_dwarf_barbarian_portrait_wearing_a_bear_skin_fantasy_ar_14cc6e20-caa4-41cc-ba7c-c1e3efaf9c19.png"
       imageTitle="Ingarven (Tundra Dwarf)"
       imageWidth="18rem"
       imageHeight="18rem"
