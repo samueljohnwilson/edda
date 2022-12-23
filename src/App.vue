@@ -5,7 +5,7 @@
         <div id="nav">
           <router-link to="/home">HOME</router-link> |
           <router-link to="/races">RACES</router-link> |
-          <!-- <router-link to="/beasts">BESTIARY</router-link> | -->
+          <router-link to="/beasts">BESTIARY</router-link> |
           <router-link to="/lands">LANDS</router-link> |
           <router-link to="/gods">GODS</router-link> |
           <router-link to="/history">HISTORY</router-link> |
@@ -105,10 +105,6 @@ html {
 
 .sidebar {
   background-color: #b8c8d8 !important;
-}
-
-.img-source {
-  font-size: 0.8rem;
 }
 
 .animate__animated.view {

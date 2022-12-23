@@ -1,14 +1,18 @@
-import { BaseArticleDataInterface } from '@/Types';
+import { Gods } from '@/Enums';
+import { BaseArticleInterface } from '@/Types';
 import MainComponent from './MainComponent.vue';
 
-const Ulat: BaseArticleDataInterface = {
-  title: 'ULAT',
-  quote: 'Something evil',
-  attribution: 'Ulat',
-  image:
-    'https://cdna.artstation.com/p/assets/images/images/036/716/296/large/antonio-j-manzanedo-great-earl-of-hell-manzanedo-fire-2.jpg',
-  imageTitle: 'An avatar of Ulat',
-  content: MainComponent,
+const ulat: BaseArticleInterface = {
+  name: 'Ulat',
+  value: Gods.ULAT,
+  data: {
+    title: 'ULAT',
+    quote: 'Something evil',
+    attribution: 'Ulat',
+    image: require('@/assets/gods/ulat-main.png'),
+    imageTitle: 'An avatar of Ulat',
+    content: MainComponent,
+  },
 };
 
-export default Ulat;
+export default ulat;

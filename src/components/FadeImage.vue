@@ -1,5 +1,5 @@
 <template>
-  <div style="cursor: pointer">
+  <div>
     <!-- Adds transitions to images -->
     <!-- See https://animate.style/ -->
     <transition
@@ -9,8 +9,9 @@
       leave-active-class="animate__animated animate__fadeOut img"
     >
       <v-img
-        :class="imageClassName"
         class="rounded-xl"
+        style="cursor: pointer"
+        :class="imageClassName"
         :src="image"
         :key="image"
         :lazy-src="require('@/assets/black-background.jpg')"
@@ -19,9 +20,7 @@
         @click="showLightbox"
       />
     </transition>
-    <p class="img-source" style="color: grey">
-      {{ imageTitle }}
-    </p>
+    <p class="img-source" style="color: grey" v-html="imageTitle"></p>
     <VueEasyLightbox
       teleport="imageClassName"
       zoomDisabled

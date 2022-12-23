@@ -18,7 +18,7 @@ import { ArticleList, BaseArticleInterface } from '@/Types';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-export default class BaseArticle extends Vue {
+export default class NavButton extends Vue {
   // Lifecycle hooks.
 
   /**
@@ -29,13 +29,15 @@ export default class BaseArticle extends Vue {
    * the item that is already active.
    */
   private mounted() {
-    const BaseArticleInterface =
+    console.log(this.$route.query);
+    console.log(this.data);
+    const article =
       this.$route.query.page &&
       this.data[this.$route.query.page as BaseArticleInterface['name']]
         ? this.data[this.$route.query.page as BaseArticleInterface['name']]
         : this.active;
 
-    this.setActive(BaseArticleInterface);
+    this.setActive(article);
   }
 
   // Props.
@@ -64,8 +66,8 @@ export default class BaseArticle extends Vue {
    * Updates the query parameter and sets the active list item.
    */
   private handleNavigation(BaseArticleInterface: BaseArticleInterface) {
-    this.$router.replace({ query: { page: BaseArticleInterface.value } });
     this.setActive(BaseArticleInterface);
+    this.$router.replace({ query: { page: BaseArticleInterface.value } });
   }
 }
 </script>

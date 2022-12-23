@@ -2,7 +2,7 @@ export enum Races {
   HUMAN = 'human',
   DWARF = 'dwarf',
   ELF = 'elf',
-  HALF_ELF = 'half-elf',
+  HALF_ELF = 'halfelf',
   HALFLING = 'halfling',
   FIRBOLG = 'firbolg',
 }

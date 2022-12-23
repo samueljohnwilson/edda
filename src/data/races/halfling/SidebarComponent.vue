@@ -1,7 +1,7 @@
 <template>
   <div>
     <FadeImage
-      image='https://cdn.discordapp.com/attachments/1008048169621393458/1054219606677536828/sam.dub_hobbit_merchant_portrait_as_drawn_by_Greg_Rutkowski_8k_836350a8-6693-4858-ad64-e41dabdbee6c.png'
+      image="https://cdn.discordapp.com/attachments/1008048169621393458/1054219606677536828/sam.dub_hobbit_merchant_portrait_as_drawn_by_Greg_Rutkowski_8k_836350a8-6693-4858-ad64-e41dabdbee6c.png"
       imageTitle="Cityfolk"
       imageWidth="18rem"
       imageHeight="18rem"
