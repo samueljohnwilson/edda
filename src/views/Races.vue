@@ -18,8 +18,8 @@ import { Action, Getter } from 'vuex-class';
     NavButton,
   },
 })
-export default class Races extends Vue {
-  // Getters.
+export default class RacesPage extends Vue {
+  // Getters
 
   /**
    * The race currently being displayed.
@@ -33,7 +33,7 @@ export default class Races extends Vue {
   @Getter('races', { namespace: 'races' })
   private races!: ArticleList;
 
-  // Actions.
+  // Actions
 
   @Action('setActiveRace', { namespace: 'races' })
   private setActiveRace!: (race: BaseArticleInterface) => void;

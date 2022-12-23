@@ -5,7 +5,7 @@ import HalfElf from '@/data/races/half-elf/HalfElf';
 import Halfling from '@/data/races/halfling/Halfling';
 import Human from '@/data/races/human/Human';
 import { Races } from '@/Enums';
-import { RacesState, RootState } from '@/store/Types';
+import { ArticleState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';
 import { ActionTree, GetterTree, Module, MutationTree } from 'vuex';
 
@@ -43,51 +43,36 @@ const human: BaseArticleInterface = {
   data: Human,
 };
 
-/**
- * Initial race state.
- */
-const state: RacesState = {
-  races: {
-    dwarf,
-    elf,
-    firbolg,
-    halfElf,
-    halfling,
-    human,
+const state: ArticleState = {
+  articleList: {
+    [Races.DWARF]: dwarf,
+    [Races.ELF]: elf,
+    [Races.FIRBOLG]: firbolg,
+    [Races.HALF_ELF]: halfElf,
+    [Races.HALFLING]: halfling,
+    [Races.HUMAN]: human,
   },
-  activeRace: dwarf,
+  activeArticle: dwarf,
 };
 
-/**
- * Getters.
- */
-const getters: GetterTree<RacesState, RootState> = {
-  races: _state => _state.races,
-  activeRace: _state => _state.activeRace,
+const getters: GetterTree<ArticleState, RootState> = {
+  races: _state => _state.articleList,
+  activeRace: _state => _state.activeArticle,
 };
 
-/**
- * Actions.
- */
-const actions: ActionTree<RacesState, RootState> = {
+const actions: ActionTree<ArticleState, RootState> = {
   setActiveRace({ commit }, race: BaseArticleInterface) {
     commit('SET_ACTIVE_RACE', race);
   },
 };
 
-/**
- * Mutations.
- */
-const mutations: MutationTree<RacesState> = {
-  ['SET_ACTIVE_RACE'](_state: RacesState, race: BaseArticleInterface) {
-    _state.activeRace = race;
+const mutations: MutationTree<ArticleState> = {
+  ['SET_ACTIVE_RACE'](_state: ArticleState, race: BaseArticleInterface) {
+    _state.activeArticle = race;
   },
 };
 
-/**
- * The Races Vuex module.
- */
-const races: Module<RacesState, RootState> = {
+const races: Module<ArticleState, RootState> = {
   state,
   getters,
   actions,

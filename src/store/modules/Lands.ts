@@ -6,7 +6,7 @@ import Garrad from '@/data/lands/garrad/Garrad';
 import Ithra from '@/data/lands/ithra/Ithra';
 import Ulwyll from '@/data/lands/ulwyll/Ulwyll';
 import { Lands } from '@/Enums';
-import { LandsState, RootState } from '@/store/Types';
+import { ArticleState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';
 import { ActionTree, GetterTree, Module, MutationTree } from 'vuex';
 
@@ -49,52 +49,37 @@ const ulwyll: BaseArticleInterface = {
   data: Ulwyll,
 };
 
-/**
- * Initial land state.
- */
-const state: LandsState = {
-  lands: {
-    hetheskein,
-    bjordlund,
-    unterlund,
-    neywyll,
-    garrad,
-    ithra,
-    ulwyll,
+const state: ArticleState = {
+  articleList: {
+    [Lands.HETHESKEIN]: hetheskein,
+    [Lands.BJORDLUND]: bjordlund,
+    [Lands.UNTERLUND]: unterlund,
+    [Lands.NEYWYLL]: neywyll,
+    [Lands.GARRAD]: garrad,
+    [Lands.ITHRA]: ithra,
+    [Lands.ULWYLL]: ulwyll,
   },
-  activeLand: hetheskein,
+  activeArticle: hetheskein,
 };
 
-/**
- * Getters.
- */
-const getters: GetterTree<LandsState, RootState> = {
-  lands: _state => _state.lands,
-  activeLand: _state => _state.activeLand,
+const getters: GetterTree<ArticleState, RootState> = {
+  lands: _state => _state.articleList,
+  activeLand: _state => _state.activeArticle,
 };
 
-/**
- * Actions.
- */
-const actions: ActionTree<LandsState, RootState> = {
+const actions: ActionTree<ArticleState, RootState> = {
   setActiveLand({ commit }, land: BaseArticleInterface) {
     commit('SET_ACTIVE_LAND', land);
   },
 };
 
-/**
- * Mutations.
- */
-const mutations: MutationTree<LandsState> = {
-  ['SET_ACTIVE_LAND'](_state: LandsState, land: BaseArticleInterface) {
-    _state.activeLand = land;
+const mutations: MutationTree<ArticleState> = {
+  ['SET_ACTIVE_LAND'](_state: ArticleState, land: BaseArticleInterface) {
+    _state.activeArticle = land;
   },
 };
 
-/**
- * The Lands Vuex module.
- */
-const lands: Module<LandsState, RootState> = {
+const lands: Module<ArticleState, RootState> = {
   state,
   getters,
   actions,

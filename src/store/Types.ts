@@ -4,22 +4,7 @@ export interface RootState {
   name: string;
 }
 
-export interface GodsState {
-  gods: ArticleList;
-  activeGod: BaseArticleInterface;
-}
-
-export interface LandsState {
-  lands: ArticleList;
-  activeLand: BaseArticleInterface;
-}
-
-export interface RacesState {
-  races: ArticleList;
-  activeRace: BaseArticleInterface;
-}
-
-export interface BeastsState {
-  beasts: ArticleList;
-  activeBeast: BaseArticleInterface;
+export interface ArticleState {
+  articleList: ArticleList;
+  activeArticle: BaseArticleInterface;
 }

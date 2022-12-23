@@ -6,14 +6,12 @@ import malak from '@/data/gods/malak/Malak';
 import othar from '@/data/gods/othar/Othar';
 import ulat from '@/data/gods/ulat/Ulat';
 import { Gods } from '@/Enums';
-import { GodsState, RootState } from '@/store/Types';
+import { ArticleState, RootState } from '@/store/Types';
 import { BaseArticleInterface } from '@/Types';
 import { ActionTree, GetterTree, Module, MutationTree } from 'vuex';
 
-// Initial state
-
-const state: GodsState = {
-  gods: {
+const state: ArticleState = {
+  articleList: {
     [Gods.CERRUNOS]: cerrunos,
     [Gods.EOS]: eos,
     [Gods.OTHAR]: othar,
@@ -22,33 +20,27 @@ const state: GodsState = {
     [Gods.ETH_KOREL]: ethKorel,
     [Gods.MALAK]: malak,
   },
-  activeGod: cerrunos,
+  activeArticle: cerrunos,
 };
 
-// Getters
-
-const getters: GetterTree<GodsState, RootState> = {
-  gods: _state => _state.gods,
-  activeGod: _state => _state.activeGod,
+const getters: GetterTree<ArticleState, RootState> = {
+  gods: _state => _state.articleList,
+  activeGod: _state => _state.activeArticle,
 };
 
-// Actions
-
-const actions: ActionTree<GodsState, RootState> = {
+const actions: ActionTree<ArticleState, RootState> = {
   setActiveGod({ commit }, god: BaseArticleInterface) {
     commit('SET_ACTIVE_GOD', god);
   },
 };
 
-// Mutations
-
-const mutations: MutationTree<GodsState> = {
-  ['SET_ACTIVE_GOD'](_state: GodsState, god: BaseArticleInterface) {
-    _state.activeGod = god;
+const mutations: MutationTree<ArticleState> = {
+  ['SET_ACTIVE_GOD'](_state: ArticleState, god: BaseArticleInterface) {
+    _state.activeArticle = god;
   },
 };
 
-const gods: Module<GodsState, RootState> = {
+const gods: Module<ArticleState, RootState> = {
   state,
   getters,
   actions,
