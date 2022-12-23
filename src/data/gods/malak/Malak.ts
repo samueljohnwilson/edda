@@ -9,7 +9,7 @@ const malak: BaseArticleInterface = {
     title: 'MALAK',
     quote: `It is said the first soul consumed by the Devourer was that of Oleid, Lord Praetor of the Illyum. If this is so,
       his soul has writhed in suffering for nearly fourteen-thousand years. Fall upon your sword, if ever Malak returns.`,
-    attribution: 'Calaith Aowen, elven sage',
+    quoteAttribution: 'Calaith Aowen, elven sage',
     image: require('@/assets/gods/malak-main.png'),
     imageTitle: 'An avatar of Malak',
     content: MainComponent,

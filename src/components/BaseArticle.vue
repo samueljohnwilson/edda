@@ -13,12 +13,18 @@
           />
         </v-col>
         <v-col v-if="$vuetify.breakpoint.mdAndUp" cols="4">
-          <QuoteBlock :attribution="data.attribution" :quote="data.quote" />
+          <QuoteBlock
+            :quoteAttribution="data.quoteAttribution"
+            :quote="data.quote"
+          />
         </v-col>
       </v-row>
       <v-row v-if="$vuetify.breakpoint.smAndDown">
         <v-col cols="12">
-          <QuoteBlock :attribution="data.attribution" :quote="data.quote" />
+          <QuoteBlock
+            :quoteAttribution="data.quoteAttribution"
+            :quote="data.quote"
+          />
         </v-col>
       </v-row>
       <v-row>

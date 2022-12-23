@@ -9,7 +9,7 @@ const othar: BaseArticleInterface = {
   data: {
     title: 'OTHAR',
     quote: 'Die smiling! Othar awaits!',
-    attribution: 'Bjord toast',
+    quoteAttribution: 'Bjord toast',
     image: require('@/assets/gods/othar-main.png'),
     imageTitle: 'An avatar of Othar',
     sidebar: SidebarComponent,

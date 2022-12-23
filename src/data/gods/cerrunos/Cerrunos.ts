@@ -11,7 +11,7 @@ const cerrunos: BaseArticleInterface = {
     quote: `As spring follows winter, so justice follows
       evil. We must put our faith in the the First King, and act as the
       agents of his judgement.`,
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    quoteAttribution: 'Sir Lunder, magistrate of the Even Hand',
     image: require('@/assets/gods/cerrunos-main.png'),
     imageTitle: 'An avatar of Cerrunos',
     content: MainComponent,

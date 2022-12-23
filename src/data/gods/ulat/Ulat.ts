@@ -8,7 +8,7 @@ const ulat: BaseArticleInterface = {
   data: {
     title: 'ULAT',
     quote: 'Something evil',
-    attribution: 'Ulat',
+    quoteAttribution: 'Ulat',
     image: require('@/assets/gods/ulat-main.png'),
     imageTitle: 'An avatar of Ulat',
     content: MainComponent,

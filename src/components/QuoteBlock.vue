@@ -3,7 +3,7 @@
     <v-card-text class="quote rounded-xl">
       <blockquote v-html="quote" />
     </v-card-text>
-    <p class="img-source" style="color: grey">{{ attribution }}</p>
+    <p class="img-title" style="color: grey">{{ quoteAttribution }}</p>
   </div>
 </template>
 
@@ -18,6 +18,6 @@ export default class QuoteBlock extends Vue {
   private readonly quote!: string;
 
   @Prop()
-  private readonly attribution!: string;
+  private readonly quoteAttribution!: string;
 }
 </script>

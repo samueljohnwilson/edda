@@ -8,7 +8,7 @@ const Unterlund: BaseArticleDataInterface = {
     reckoning. The city you see today stands on the bones of long-dead
     men. It is safe to say, new stones will be laid on our bones someday
     too.`,
-  attribution: 'Argyle Bild, acolyte of the Middle Path',
+  quoteAttribution: 'Argyle Bild, acolyte of the Middle Path',
   image:
     'https://cdn.discordapp.com/attachments/1008048169621393458/1053835840356364379/sam.dub_medieval_city_gate_fantasy_art_castle_in_background_8k_bb57f32d-bed7-470c-aa2a-de25f0e532d0.png',
   imageTitle: 'Northern Unterlund',

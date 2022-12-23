@@ -29,8 +29,6 @@ export default class NavButton extends Vue {
    * the item that is already active.
    */
   private mounted() {
-    console.log(this.$route.query);
-    console.log(this.data);
     const article =
       this.$route.query.page &&
       this.data[this.$route.query.page as BaseArticleInterface['name']]

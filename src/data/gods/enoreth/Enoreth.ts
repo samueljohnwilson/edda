@@ -9,7 +9,7 @@ const enoreth: BaseArticleInterface = {
     title: 'ENORETH',
     quote: `All that we can imagine exists within The Sum of All Things, whether
       fair or foul. It is eternal, unbounded, limitless.`,
-    attribution: 'Calaith Aowen, elven sage',
+    quoteAttribution: 'Calaith Aowen, elven sage',
     image: require('@/assets/gods/enoreth-main.png'),
     imageTitle: 'The Astral Plane',
     content: MainComponent,

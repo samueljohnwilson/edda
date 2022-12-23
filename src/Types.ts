@@ -1,11 +1,11 @@
 export interface BaseArticleDataInterface {
-  attribution: string;
   className?: string;
   content: Vue.Component;
   image: string;
-  imageTitle: string;
+  imageTitle?: string;
   title: string;
   quote: string;
+  quoteAttribution: string;
   sidebar?: Vue.Component;
 }
 
@@ -13,6 +13,12 @@ export interface BaseArticleInterface {
   data: BaseArticleDataInterface;
   name: string;
   value: string;
+}
+
+export interface HomeArticleDataInterface {
+  image: string;
+  title: string;
+  quote: string;
 }
 
 export interface TimelineEntryInterface {

@@ -20,7 +20,12 @@
         @click="showLightbox"
       />
     </transition>
-    <p class="img-source" style="color: grey" v-html="imageTitle"></p>
+    <p
+      class="img-title"
+      v-if="imageTitle"
+      style="color: grey"
+      v-html="imageTitle"
+    ></p>
     <VueEasyLightbox
       teleport="imageClassName"
       zoomDisabled
